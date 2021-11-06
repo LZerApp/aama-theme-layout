@@ -1,0 +1,26 @@
+{
+  "name": "theme-aama",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev:watch": "tailwindcss -i src/styles.css -o public/main.css --watch",
+    "dev:build": "tailwindcss -i src/styles.css -o public/main.css --minify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LZerApp/theme-aama.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LZerApp/theme-aama/issues"
+  },
+  "homepage": "https://github.com/LZerApp/theme-aama#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.3.11",
+    "tailwindcss": "^2.2.19"
+  }
+}
