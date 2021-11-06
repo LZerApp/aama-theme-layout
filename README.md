@@ -1,7 +1,7 @@
 <!-- Badge for License -->
 <div align="right">
 
-  [![](https://img.shields.io/github/license/LZerApp/wp-theme-aama.svg?style=flat-square)](./LICENSE)
+  [![](https://img.shields.io/github/license/LZerApp/theme-aama.svg?style=flat-square)](./LICENSE)
 
 </div>
 
@@ -20,7 +20,10 @@
 ## 開發說明
 
 ```bash
+# watching
 $ npm run dev:watch
+
+# build css files
 $ npm run dev:build
 ```
 
