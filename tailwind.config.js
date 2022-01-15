@@ -4,6 +4,10 @@ module.exports = {
   darkMode: 'media',
   theme: {
     extend: {
+      backgroundImage: {
+        testimonial: "url('../images/backgrounds/testimonial.svg')",
+        video: "url('../images/backgrounds/video.svg')",
+      },
       colors: {
         transparent: 'transparent',
         current: 'currentColor',
@@ -37,11 +41,28 @@ module.exports = {
       },
       fontFamily: {
         display: ['Oswald'],
-        proText: ['SF Pro Text'],
+        prodisplay: ['SF Pro Display'],
+        protext: ['SF Pro Text'],
       },
-      backgroundImage: {
-        'testimonial': "url('../images/backgrounds/testimonial.svg')",
-        'video': "url('../images/backgrounds/video.svg')",
+      fontSize: {
+        h1: ['40px', '125%'],
+        h2: ['32px', '125%'],
+        h3: ['28px', '125%'],
+        h4: ['24px', '140%'],
+        h5: ['20px', '140%'],
+        h6: ['18px', '140%'],
+        title: ['16px', '140%'],
+        subtitle: ['14px', '140%'],
+        body1: ['16px', '140%'],
+        body2: ['14px', '140%'],
+        caption: ['12px', '140%'],
+        small: ['11px', '140%'],
+        tiny: ['10px', '140%'],
+      },
+      lineHeight: {
+        title: '125%',
+        normal: '140%',
+        loose: '160%',
       },
     },
   },
