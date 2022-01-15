@@ -40,8 +40,8 @@ module.exports = {
         proText: ['SF Pro Text'],
       },
       backgroundImage: {
-        'testimonial': "url('/_assets/images/backgrounds/testimonial.svg')",
-        'video': "url('/_assets/images/backgrounds/video.svg')",
+        'testimonial': "url('../images/backgrounds/testimonial.svg')",
+        'video': "url('../images/backgrounds/video.svg')",
       },
     },
   },

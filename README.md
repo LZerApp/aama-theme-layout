@@ -14,7 +14,7 @@
 🎨 _Layout for the custom WordPress theme for AAMA Taipei. Proudly built with [Tailwind CSS](https://tailwindcss.com/)._
 
 [![](https://img.shields.io/badge/DESIGN-設計原稿-8CA1AF.svg?logo=read-the-docs&style=flat-square)](https://www.figma.com/file/zEDW5rJZIiU7PUGbfRWFTT/)
-[![](https://img.shields.io/badge/PREVIEW-頁面預覽-FBD984.svg?logo=code-review&style=flat-square)](https://www.figma.com/file/zEDW5rJZIiU7PUGbfRWFTT/)
+[![](https://img.shields.io/badge/PREVIEW-頁面預覽-FBD984.svg?logo=code-review&style=flat-square)](https://lzerapp.github.io/aama-theme-layout/)
 
 </div>
 
