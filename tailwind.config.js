@@ -1,10 +1,7 @@
 module.exports = {
   mode: 'jit',
-  purge: {
-    enabled: true,
-    content: ['./public/**.html']
-  },
-  darkMode: false, // or 'media' or 'class'
+  content: ['./public/**/*.{html,js}', './src/*.{html,js}'],
+  darkMode: 'media',
   theme: {
     extend: {
       colors: {
@@ -22,7 +19,6 @@ module.exports = {
           light: '#ffa929',
           DEFAULT: '#f98d00',
           dark: '#d47100',
-
         },
         black: {
           900: '#2d2d2d',
@@ -38,22 +34,19 @@ module.exports = {
         white: {
           DEFAULT: '#ffffff',
         },
-
       },
       fontFamily: {
-        'display': ['Oswald'],
-        'proText': ['SF Pro Text']
+        display: ['Oswald'],
+        proText: ['SF Pro Text'],
       },
-      backgroundImage:{
-        'page-source': "url('/src/img/homepageBackground.svg')",
-        'page-news-second':"url('/src/img/homepage_news/news_2.svg)",
-        'page-witness':"url('/src/img/homepage_witness/background.svg')"
-      }
+      backgroundImage: {
+        'testimonial': "url('/_assets/images/backgrounds/testimonial.svg')",
+        'video': "url('/_assets/images/backgrounds/video.svg')",
+      },
     },
-
   },
   variants: {
     extend: {},
   },
   plugins: [],
-}
+};

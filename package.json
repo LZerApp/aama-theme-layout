@@ -1,26 +1,26 @@
 {
-  "name": "theme-aama",
+  "name": "aama-theme-layout",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "🎨 Layout for the custom WordPress theme for AAMA Taipei. Proudly built with Tailwind CSS.",
   "scripts": {
-    "dev:watch": "tailwindcss -i src/styles.css -o public/main.css --watch",
-    "dev:build": "tailwindcss -i src/styles.css -o public/main.css --minify"
+    "watch": "tailwindcss -i src/styles.css -o public/_assets/styles/main.css --watch",
+    "build": "tailwindcss -i src/styles.css -o public/_assets/styles/main.css --minify && minify src/index.js > public/_assets/scripts/main.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LZerApp/theme-aama.git"
+    "url": "git+https://github.com/LZerApp/aama-theme-layout.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "H.-H. Peng (Hsins), C.-X. Zhou (chenxuanzzy)",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/LZerApp/theme-aama/issues"
+    "url": "https://github.com/LZerApp/aama-theme-layout/issues"
   },
-  "homepage": "https://github.com/LZerApp/theme-aama#readme",
+  "homepage": "https://github.com/LZerApp/aama-theme-layout#readme",
   "devDependencies": {
-    "autoprefixer": "^10.4.0",
-    "postcss": "^8.3.11",
-    "tailwindcss": "^2.2.19"
+    "autoprefixer": "^10.4.2",
+    "minify": "^8.0.3",
+    "postcss": "^8.4.5",
+    "tailwindcss": "^3.0.15"
   }
 }
