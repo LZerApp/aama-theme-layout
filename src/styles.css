@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Mentor Page */
+.header-tag {
+  @apply mr-16 font-extrabold;
+}
+.intro-decoration {
+  @apply font-semibold text-primary-default ml-10;
+}
+.intro-tag {
+  @apply px-3 py-1 text-caption text-primary-default bg-primary-tint rounded-md font-bold mr-2;
+}
+.intro-metor-pic {
+  @apply flex justify-start mt-10;
+}
