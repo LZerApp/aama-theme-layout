@@ -4,14 +4,16 @@
 
 /* Mentor Page */
 .header-tag {
-  @apply mr-16 font-extrabold;
+  @apply mr-8 font-extrabold;
 }
-.intro-decoration {
-  @apply font-semibold text-primary-default ml-10;
+.content-line {
+  height: 2px;
+  width: 24px;
+  @apply bg-primary;
+}
+.intro-mentor-pic {
+  @apply flex justify-start mt-10;
 }
 .intro-tag {
-  @apply px-3 py-1 text-caption text-primary-default bg-primary-tint rounded-md font-bold mr-2;
-}
-.intro-metor-pic {
-  @apply flex justify-start mt-10;
+  @apply px-3 py-1 text-caption text-primary bg-primary-tint rounded-md font-bold mr-2;
 }

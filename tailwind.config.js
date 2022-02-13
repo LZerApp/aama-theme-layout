@@ -4,7 +4,7 @@ module.exports = {
   darkMode: "media",
   theme: {
     backgroundSize: {
-      custom: "70%",
+      custom: "80%",
     },
     extend: {
       backgroundImage: {
@@ -19,14 +19,14 @@ module.exports = {
         primary: {
           tint: "#e6fbff",
           light: "#49bce6",
-          default: "#0088cc",
+          DEFAULT: "#0088cc",
           dark: "#0069a6",
           textBlue: "#0093D6",
         },
         secondary: {
           tint: "#fff8e6",
           light: "#ffa929",
-          default: "#f98d00",
+          DEFAULT: "#f98d00",
           dark: "#d47100",
         },
         black: {
@@ -73,6 +73,14 @@ module.exports = {
         title: "125%",
         normal: "140%",
         loose: "160%",
+      },
+      width: {
+        logo: "50px",
+        articImg: "256px",
+      },
+      heigh: {
+        logo: "50px",
+        articImg: "177px",
       },
     },
   },
