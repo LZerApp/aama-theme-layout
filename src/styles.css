@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Mentor Page */
+.header-tag {
+  @apply mr-8 font-extrabold;
+}
+.content-line {
+  height: 2px;
+  width: 24px;
+  @apply bg-primary;
+}
+.intro-mentor-pic {
+  @apply flex justify-start mt-10;
+}
+.intro-tag {
+  @apply px-3 py-1 text-caption text-primary bg-primary-tint rounded-md font-bold mr-2;
+}
