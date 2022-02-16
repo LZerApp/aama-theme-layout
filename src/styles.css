@@ -17,3 +17,9 @@
 .intro-tag {
   @apply px-3 py-1 text-caption text-primary bg-primary-tint rounded-md font-bold mr-2;
 }
+.global-width {
+  max-width: 1535px;
+}
+.footer-width {
+  max-width: 1880px;
+}
