@@ -4,7 +4,9 @@ module.exports = {
   darkMode: "media",
   theme: {
     backgroundSize: {
-      custom: "80%",
+      custom: "70%",
+      createBanner: "200%",
+      createBannerLarge: "100%",
     },
     extend: {
       backgroundImage: {
@@ -12,6 +14,9 @@ module.exports = {
         video: "url('../images/backgrounds/video.svg')",
         largelogo: "url('../images/backgrounds/logo.svg')",
         footer: "url(../images/backgrounds/footer.svg)",
+        cocreate: "url(../images/backgrounds/co-create.svg)",
+        createMessage: "url(../images/entrepreneur/report/example_2.svg)",
+        about: "url(../images/backgrounds/about.svg)",
       },
       colors: {
         transparent: "transparent",
@@ -30,6 +35,7 @@ module.exports = {
           dark: "#d47100",
         },
         black: {
+          DEFAULT: "#000000",
           900: "#2d2d2d",
           800: "#4b4b4b",
           700: "#6f6f6f",
@@ -46,6 +52,10 @@ module.exports = {
         border: {
           darkgray: "#909090",
           shallow: "#C4C4C4",
+        },
+        margin: {
+          "200px": "700px",
+          "400px": "400px",
         },
       },
       fontFamily: {
@@ -77,10 +87,12 @@ module.exports = {
       width: {
         logo: "50px",
         articImg: "256px",
+        createMessageImg: "382px",
       },
       heigh: {
         logo: "50px",
         articImg: "177px",
+        createMessageImg: "298px",
       },
     },
   },
