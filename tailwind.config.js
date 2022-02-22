@@ -17,6 +17,8 @@ module.exports = {
         cocreate: "url(../images/backgrounds/co-create.svg)",
         createMessage: "url(../images/entrepreneur/report/example_2.svg)",
         about: "url(../images/backgrounds/about.svg)",
+        recruit: "url(../images/backgrounds/recruit-banner.svg)",
+        banner1: "url(../images/sliders/banner-1.svg)",
       },
       colors: {
         transparent: "transparent",
@@ -53,10 +55,6 @@ module.exports = {
           darkgray: "#909090",
           shallow: "#C4C4C4",
         },
-        margin: {
-          "200px": "700px",
-          "400px": "400px",
-        },
       },
       fontFamily: {
         display: ["Oswald"],
@@ -78,6 +76,7 @@ module.exports = {
         caption: ["12px", "140%"],
         small: ["11px", "140%"],
         tiny: ["10px", "140%"],
+        ag: ["75px"],
       },
       lineHeight: {
         title: "125%",
