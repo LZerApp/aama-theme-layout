@@ -16,6 +16,7 @@ module.exports = {
         footer: "url(../images/backgrounds/footer.svg)",
         cocreate: "url(../images/backgrounds/co-create.svg)",
         createMessage: "url(../images/entrepreneur/report/example_2.svg)",
+        about: "url(../images/backgrounds/about.svg)",
       },
       colors: {
         transparent: "transparent",
@@ -51,6 +52,10 @@ module.exports = {
         border: {
           darkgray: "#909090",
           shallow: "#C4C4C4",
+        },
+        margin: {
+          "200px": "700px",
+          "400px": "400px",
         },
       },
       fontFamily: {
