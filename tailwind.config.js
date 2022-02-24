@@ -38,6 +38,7 @@ module.exports = {
         },
         black: {
           DEFAULT: "#000000",
+          footer: "#c4c4c4",
           900: "#2d2d2d",
           800: "#4b4b4b",
           700: "#6f6f6f",
