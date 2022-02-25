@@ -15,7 +15,7 @@
   @apply flex justify-start mt-10;
 }
 .intro-tag {
-  @apply px-3 py-1 text-caption text-primary bg-primary-tint rounded-md font-bold mr-2;
+  @apply px-3 py-1 text-caption text-primary bg-primary-tint rounded-md font-bold mr-2 my-1;
 }
 .global-width {
   max-width: 1535px;
