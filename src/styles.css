@@ -20,21 +20,20 @@
 .global-width {
   max-width: 1535px;
 }
-.read-more {
-  padding-left: 8rem;
-  padding-right: 8rem;
-}
 .number-area {
   margin-top: 40px;
 }
 .text-hollow {
   -webkit-text-stroke: 4px rgb(255, 255, 255);
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
 }
 .text-setting {
   -webkit-text-stroke: 4px rgb(0, 0, 0);
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
 }
 .about-btn {
   margin: 150px;
+}
+.tag-border {
+  border: 1px solid black;
 }
