@@ -43,6 +43,7 @@ module.exports = {
         primary: {
           tint: '#e6fbff',
           light: '#49bce6',
+          normal: '#23a2d9',
           DEFAULT: '#0088cc',
           dark: '#0069a6',
           textBlue: '#0093D6',
