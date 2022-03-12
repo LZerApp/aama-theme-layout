@@ -37,3 +37,13 @@
 .tag-border {
   border: 1px solid black;
 }
+details .down-arrow {
+  display: none;
+}
+
+details[open] .right-arrow {
+  display: none;
+}
+details[open] .down-arrow {
+  display: inline;
+}
