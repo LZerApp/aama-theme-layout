@@ -27,52 +27,100 @@
               alt="logo"
               class="h-[24px] xl:h-[34px]"
             />
-            <div class="hidden xl:flex">
+            <div class="hidden xl:flex md:flex">
               <a
                 href="#"
-                class="text-primary-dark font-extrabold text-white xl:ml-10"
+                class="text-primary-dark font-extrabold text-white xl:ml-10 md:ml-10"
                 >關於我們</a
               >
               <a
                 href="./co-study/"
-                class="text-primary-dark font-extrabold text-white xl:ml-10"
+                class="text-primary-dark font-extrabold text-white xl:ml-10 md:ml-10"
                 >共學</a
               >
               <a
                 href="./co-create/"
-                class="text-primary-dark font-extrabold text-white xl:ml-10"
+                class="text-primary-dark font-extrabold text-white xl:ml-10 md:ml-10"
                 >共創</a
               >
               <a
                 href="./community/"
-                class="text-primary-dark font-extrabold text-white xl:ml-10"
+                class="text-primary-dark font-extrabold text-white xl:ml-10 md:ml-10"
                 >社群</a
               >
               <a
                 href="#"
-                class="text-primary-dark font-extrabold text-white xl:ml-10"
+                class="text-primary-dark font-extrabold text-white xl:ml-10 md:ml-10"
                 >加入我們</a
               >
               <a
                 href="#"
-                class="text-primary-dark font-extrabold text-white xl:ml-10"
+                class="text-primary-dark font-extrabold text-white xl:ml-10 md:ml-10"
                 >登入會員</a
               >
             </div>
-            <div class="xl:hidden cursor-pointer">
-              <a href="./hamburger">
-                <img
-                  src="../_assets/images/backgrounds/hamburger-menu.svg"
-                  alt="hamburger"
-                />
-              </a>
+            <div class="md:hidden">
+              <label>
+                <input type="checkbox" />
+                <span class="menu"> <span class="hamburger"></span> </span>
+                <ul>
+                  <li class="py-4">
+                    <a
+                      href="#"
+                      class="text-h2 text-primary-dark font-bold hover:text-primary-normal"
+                      >關於我們</a
+                    >
+                  </li>
+                  <li class="py-4">
+                    <a
+                      href="../co-study/"
+                      class="text-h2 text-primary-dark font-bold hover:text-primary-normal"
+                      >共學</a
+                    >
+                  </li>
+                  <li class="py-4">
+                    <a
+                      href="../co-create/"
+                      class="text-h2 text-primary-dark font-bold hover:text-primary-normal"
+                      >共創</a
+                    >
+                  </li>
+                  <li class="py-4">
+                    <a
+                      href="../community/"
+                      class="text-h2 text-primary-dark font-bold hover:text-primary-normal"
+                      >社群</a
+                    >
+                  </li>
+                  <li class="py-4">
+                    <a
+                      href="#"
+                      class="text-h2 text-primary-dark font-bold hover:text-primary-normal"
+                      >加入我們</a
+                    >
+                  </li>
+                  <li class="py-4">
+                    <a
+                      href="#"
+                      class="text-h2 text-primary-dark font-bold hover:text-primary-normal"
+                      >登入會員</a
+                    >
+                  </li>
+                </ul>
+              </label>
+            </div>
+            <div class="hidden md:visible cursor-pointer z-10">
+              <img
+                src="../_assets/images/backgrounds/hamburger-menu-white.svg"
+                alt="hamburger"
+              />
             </div>
           </div>
         </div>
       </nav>
       <section class="container">
-        <div class="flex flex-col items-center mt-96 xl:mt-96">
-          <p class="font-bold text-white text-h2 p-10">
+        <div class="flex flex-col items-center mt-96 xl:mt-96 md:mt-[350px]">
+          <p class="font-bold text-white text-h5 xl:text-h3 p-10">
             培育台灣新世代<br />具指標性創業者
           </p>
           <span
@@ -92,7 +140,7 @@
         />
         <div class="">
           <p
-            class="text-h4 font-bold py-10 text-center md:text-left md:text-h1 md:text-black-900"
+            class="text-h5 xl:text-h3 font-bold py-10 text-center md:text-black-900"
           >
             推動共學計畫&emsp;共享核心<span class="border-b-4 border-secondary"
               >價值</span
@@ -115,7 +163,7 @@
       <div class="container">
         <div class="text-center items-center py-16">
           <div class="pb-10">
-            <p class="text-h4 font-bold text-white md:text-h1">
+            <p class="text-h5 xl:text-h3 font-bold text-white">
               AAMA 台北搖籃計畫成立<span class="border-b-4 border-secondary"
                 >背景</span
               >
@@ -169,7 +217,7 @@
     </section>
 
     <section
-      class="mt-20 md:px-52 bg-[#f6f6f6] py-10 bg-contain md:bg-walkBanner"
+      class="mt-20 md:px-52 bg-[#f6f6f6] py-10 bg-contain md:bg-walkBanner bg-no-repeat"
     >
       <div class="container">
         <div class="lg:flex lg:justify-between lg:py-10">
@@ -271,12 +319,11 @@
     <section class="mt-[120px]">
       <div class="container">
         <div class="mt-[40px]">
-          <p class="xl:text-h3 text-h5 font-bold text-center">
+          <p class="xl:text-h3 text-h5 font-bold text-center p-10">
             報名<span class="border-b-4 border-secondary">流程</span>
           </p>
         </div>
         <div class="step-area xl:px-40">
-          <!-- hover:text-primy-600 hover:border-primary-300 -->
           <div
             class="step-one bg-[#f6f6f6] p-6 border border-transparent transition duration-500 hover:border-primary"
           >
@@ -285,7 +332,7 @@
             >
             <div class="flex py-4">
               <img src="../_assets/images/icons/edit.svg" alt="edit-icon" />
-              <span class="text-black-900 text-h5 ml-2 font-bold text-justify"
+              <span class="text-black-900 text-h6 ml-2 font-bold text-justify"
                 >4/1-4/30 填寫報名表</span
               >
             </div>
@@ -302,7 +349,7 @@
             >
             <div class="flex py-4">
               <img src="../_assets/images/icons/file.svg" alt="edit-icon" />
-              <span class="text-black-900 text-h5 ml-2 font-bold text-justify"
+              <span class="text-black-900 text-h6 ml-2 font-bold text-justify"
                 >5/2-5/10 書面初選</span
               >
             </div>
@@ -319,7 +366,7 @@
             >
             <div class="flex py-4">
               <img src="../_assets/images/icons/user.svg" alt="edit-icon" />
-              <span class="text-black-900 text-h5 ml-2 font-bold text-justify"
+              <span class="text-black-900 text-h6 ml-2 font-bold text-justify"
                 >5/19 複選面談</span
               >
             </div>
@@ -336,7 +383,7 @@
             >
             <div class="flex py-4">
               <img src="../_assets/images/icons/flag.svg" alt="edit-icon" />
-              <span class="text-black-900 text-h5 ml-2 font-bold text-justify"
+              <span class="text-black-900 text-h6 ml-2 font-bold text-justify"
                 >5/22 決選面談</span
               >
             </div>
@@ -353,7 +400,7 @@
             >
             <div class="flex py-4">
               <img src="../_assets/images/icons/desktop.svg" alt="edit-icon" />
-              <span class="text-black-900 text-h5 ml-2 font-bold text-justify"
+              <span class="text-black-900 text-h6 ml-2 font-bold text-justify"
                 >5/28 入選公告</span
               >
             </div>
@@ -366,7 +413,7 @@
     </section>
 
     <section
-      class="mt-20 hidden lg:block lg:px-52 pb-10 bg-recruit bg-no-repeat bg-cover bg-createBannerLarge"
+      class="mt-20 invisible lg:visible lg:px-52 pb-10 bg-recruit bg-no-repeat bg-cover bg-createBannerLarge"
     >
       <div class="container">
         <div>
@@ -388,7 +435,7 @@
                 alt="check"
                 class="w-[24px] h-[24px]"
               />
-              <p class="font-bold text-black-800 text-title px-2">
+              <p class="font-bold text-black-800 text-body1 px-2">
                 申請者年齡在 25 到 45 歲之間，創業項目優異者不在此限。
               </p>
             </div>
@@ -398,7 +445,7 @@
                 alt="check"
                 class="w-[24px] h-[24px]"
               />
-              <p class="font-bold text-black-800 text-title px-2">
+              <p class="font-bold text-black-800 text-body1 px-2">
                 申請者必須為創辦人/共同創辦人，擔任執行長並為公司重大決策的主要決策者。
               </p>
             </div>
@@ -408,7 +455,7 @@
                 alt="check"
                 class="w-[24px] h-[24px]"
               />
-              <p class="font-bold text-black-800 text-title px-2">
+              <p class="font-bold text-black-800 text-body1 px-2">
                 具有創業熱忱、發展潛力及領導特質。
               </p>
             </div>
@@ -432,7 +479,7 @@
                 />
               </div>
               <div>
-                <p class="font-bold text-black-800 text-title px-2">
+                <p class="font-bold text-black-800 text-body1 px-2">
                   申請者年齡在 25 到 45 歲之間，創業項目優異者不在此限。
                 </p>
               </div>
@@ -443,7 +490,7 @@
                 alt="check"
                 class="w-[24px] h-[24px]"
               />
-              <p class="font-bold text-black-800 text-title px-2">
+              <p class="font-bold text-black-800 text-body1 px-2">
                 申請者必須為創辦人/共同創辦人，擔任執行長並為公司重大決策的主要決策者。
               </p>
             </div>
@@ -453,7 +500,7 @@
                 alt="check"
                 class="w-[24px] h-[24px]"
               />
-              <p class="font-bold text-black-800 text-title px-2">
+              <p class="font-bold text-black-800 text-body1 px-2">
                 具有創業熱忱、發展潛力及領導特質。
               </p>
             </div>
@@ -474,7 +521,7 @@
                 alt="check"
                 class="w-[24px] h-[24px]"
               />
-              <p class="font-bold text-black-800 text-title px-2">
+              <p class="font-bold text-black-800 text-body1 px-2">
                 申請者有意願與導師就創業相關的問題，於兩年內定期主動的交流和互動，而非尋求單純的實務幫助。
               </p>
             </div>
@@ -484,7 +531,7 @@
                 alt="check"
                 class="w-[24px] h-[24px]"
               />
-              <p class="font-bold text-black-800 text-title px-2">
+              <p class="font-bold text-black-800 text-body1 px-2">
                 申請者認同 AAMA
                 台北搖籃計畫的使命和價值觀，兩年內願意積極參與，並承諾達到 8
                 成以上的活動出席率。
@@ -496,10 +543,392 @@
                 alt="check"
                 class="w-[24px] h-[24px]"
               />
-              <p class="font-bold text-black-800 text-title px-2">
+              <p class="font-bold text-black-800 text-body1 px-2">
                 計畫期間其一學習活動與外部專業顧問合作，因考量學習之完整性，希望本期全員參與，其將衍生自費課程項目，費用可參考官網說明。
               </p>
             </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="mt-[240px]">
+      <!-- <div
+        class="hidden xl:block bg-black-400 w-[824px] h-[472px] relative z-0"
+      ></div>
+      <div
+        class="hidden xl:block bg-black-400 w-[824px] h-[472px] relative z-0"
+      ></div> -->
+      <div class="xl:container relative xl:flex">
+        <div class="bg-primary flex flex-col p-10 xl:w-1/2">
+          <span class="xl:invisible text-h3 font-bold text-white"
+            >歷屆搖籃導師</span
+          >
+          <div class="font-display mt-[32px]">
+            <div class="lg:w-1/2">
+              <span class="text-hollow text-transparent text-9xl font-bold"
+                >100+</span
+              >
+            </div>
+          </div>
+          <span class="font-bold text-h5 text-white mt-[32px]"
+            >在AAMA這個大家庭協助<br />你一起成長</span
+          >
+          <a
+            href="#"
+            class="text-white font-bold hover:text-black-600 mt-[36px]"
+            >Read More</a
+          >
+        </div>
+        <div class="xl:grid xl:grid-cols-3 hidden xl:visible">
+          <div class="group relative w-full">
+            <img
+              class="absolute z-10 opacity-1 duration-500 group-hover:invisible"
+              src="../_assets/images/mentors/example.svg"
+            />
+            <div class="z-20 group-hover:opacity-80 group-hover:bg-blue-500">
+              <img
+                src="../_assets/images/entrepreneur/cheng-ji-chi.svg"
+                class="opacity-75"
+              />
+              <div
+                class="opacity-0 group-hover:opacity-100 duration-500 absolute inset-0 z-10 flex flex-col justify-end m-4 text-2xl text-white"
+              >
+                <div class="font-bold text-h4">張津瑋</div>
+                <span class="text-title">GoSky 共同創辦人暨執行長 CEO</span>
+              </div>
+            </div>
+          </div>
+          <div class="group relative w-full">
+            <img
+              class="absolute z-10 opacity-1 duration-500 group-hover:invisible"
+              src="../_assets/images/mentors/example.svg"
+            />
+            <div class="z-20 group-hover:opacity-80 group-hover:bg-blue-500">
+              <img
+                src="../_assets/images/entrepreneur/cheng-ji-chi.svg"
+                class="opacity-75"
+              />
+              <div
+                class="opacity-0 group-hover:opacity-100 duration-500 absolute inset-0 z-10 flex flex-col justify-end m-4 text-2xl text-white"
+              >
+                <div class="font-bold text-h4">張津瑋</div>
+                <span class="text-title">GoSky 共同創辦人暨執行長 CEO</span>
+              </div>
+            </div>
+          </div>
+          <div class="group relative w-full">
+            <img
+              class="absolute z-10 opacity-1 duration-500 group-hover:invisible"
+              src="../_assets/images/mentors/example.svg"
+            />
+            <div class="z-20 group-hover:opacity-80 group-hover:bg-blue-500">
+              <img
+                src="../_assets/images/entrepreneur/cheng-ji-chi.svg"
+                class="opacity-75"
+              />
+              <div
+                class="opacity-0 group-hover:opacity-100 duration-500 absolute inset-0 z-10 flex flex-col justify-end m-4 text-2xl text-white"
+              >
+                <div class="font-bold text-h4">張津瑋</div>
+                <span class="text-title">GoSky 共同創辦人暨執行長 CEO</span>
+              </div>
+            </div>
+          </div>
+          <div class="group relative w-full">
+            <img
+              class="absolute z-10 opacity-1 duration-500 group-hover:invisible"
+              src="../_assets/images/mentors/example.svg"
+            />
+            <div class="z-20 group-hover:opacity-80 group-hover:bg-blue-500">
+              <img
+                src="../_assets/images/entrepreneur/cheng-ji-chi.svg"
+                class="opacity-75"
+              />
+              <div
+                class="opacity-0 group-hover:opacity-100 duration-500 absolute inset-0 z-10 flex flex-col justify-end m-4 text-2xl text-white"
+              >
+                <div class="font-bold text-h4">張津瑋</div>
+                <span class="text-title">GoSky 共同創辦人暨執行長 CEO</span>
+              </div>
+            </div>
+          </div>
+          <div class="group relative w-full">
+            <img
+              class="absolute z-10 opacity-1 duration-500 group-hover:invisible"
+              src="../_assets/images/mentors/example.svg"
+            />
+            <div class="z-20 group-hover:opacity-80 group-hover:bg-blue-500">
+              <img
+                src="../_assets/images/entrepreneur/cheng-ji-chi.svg"
+                class="opacity-75"
+              />
+              <div
+                class="opacity-0 group-hover:opacity-100 duration-500 absolute inset-0 z-10 flex flex-col justify-end m-4 text-2xl text-white"
+              >
+                <div class="font-bold text-h4">張津瑋</div>
+                <span class="text-title">GoSky 共同創辦人暨執行長 CEO</span>
+              </div>
+            </div>
+          </div>
+          <div class="group relative w-full">
+            <img
+              class="absolute z-10 opacity-1 duration-500 group-hover:invisible"
+              src="../_assets/images/mentors/example.svg"
+            />
+            <div class="z-20 group-hover:opacity-80 group-hover:bg-blue-500">
+              <img
+                src="../_assets/images/entrepreneur/cheng-ji-chi.svg"
+                class="opacity-75"
+              />
+              <div
+                class="opacity-0 group-hover:opacity-100 duration-500 absolute inset-0 z-10 flex flex-col justify-end m-4 text-2xl text-white"
+              >
+                <div class="font-bold text-h4">張津瑋</div>
+                <span class="text-title">GoSky 共同創辦人暨執行長 CEO</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="invisible xl:visible">
+          <!-- <div><span>歷屆搖籃導師</span></div> -->
+          <!-- <div class="">
+              <span class="transform -rotate-90 font-bold text-h2">
+                歷<br />屆<br />搖<br />籃<br />導<br />師</span
+              >
+              <div class="content-line mt-4 -rotate-90 px-4"></div>
+            </div> -->
+        </div>
+      </div>
+      <div class="xl:container relative xl:flex mt-[120px]">
+        <div class="xl:grid xl:grid-cols-3 hidden xl:visible">
+          <div class="group relative w-full">
+            <img
+              class="absolute z-10 opacity-1 duration-500 group-hover:hidden"
+              src="../_assets/images/mentors/example.svg"
+            />
+            <div class="z-20 group-hover:opacity-80 group-hover:bg-blue-500">
+              <img
+                src="../_assets/images/entrepreneur/cheng-ji-chi.svg"
+                class="opacity-75"
+              />
+              <div
+                class="opacity-0 group-hover:opacity-100 duration-500 absolute inset-0 z-10 flex flex-col justify-end m-4 text-2xl text-white"
+              >
+                <div class="font-bold text-h4">張津瑋</div>
+                <span class="text-title">GoSky 共同創辦人暨執行長 CEO</span>
+              </div>
+            </div>
+          </div>
+          <div class="group relative w-full">
+            <img
+              class="absolute z-10 opacity-1 duration-500 group-hover:hidden"
+              src="../_assets/images/mentors/example.svg"
+            />
+            <div class="z-20 group-hover:opacity-80 group-hover:bg-blue-500">
+              <img
+                src="../_assets/images/entrepreneur/cheng-ji-chi.svg"
+                class="opacity-75"
+              />
+              <div
+                class="opacity-0 group-hover:opacity-100 duration-500 absolute inset-0 z-10 flex flex-col justify-end m-4 text-2xl text-white"
+              >
+                <div class="font-bold text-h4">張津瑋</div>
+                <span class="text-title">GoSky 共同創辦人暨執行長 CEO</span>
+              </div>
+            </div>
+          </div>
+          <div class="group relative w-full">
+            <img
+              class="absolute z-10 opacity-1 duration-500 group-hover:hidden"
+              src="../_assets/images/mentors/example.svg"
+            />
+            <div class="z-20 group-hover:opacity-80 group-hover:bg-blue-500">
+              <img
+                src="../_assets/images/entrepreneur/cheng-ji-chi.svg"
+                class="opacity-75"
+              />
+              <div
+                class="opacity-0 group-hover:opacity-100 duration-500 absolute inset-0 z-10 flex flex-col justify-end m-4 text-2xl text-white"
+              >
+                <div class="font-bold text-h4">張津瑋</div>
+                <span class="text-title">GoSky 共同創辦人暨執行長 CEO</span>
+              </div>
+            </div>
+          </div>
+          <div class="group relative w-full">
+            <img
+              class="absolute z-10 opacity-1 duration-500 group-hover:hidden"
+              src="../_assets/images/mentors/example.svg"
+            />
+            <div class="z-20 group-hover:opacity-80 group-hover:bg-blue-500">
+              <img
+                src="../_assets/images/entrepreneur/cheng-ji-chi.svg"
+                class="opacity-75"
+              />
+              <div
+                class="opacity-0 group-hover:opacity-100 duration-500 absolute inset-0 z-10 flex flex-col justify-end m-4 text-2xl text-white"
+              >
+                <div class="font-bold text-h4">張津瑋</div>
+                <span class="text-title">GoSky 共同創辦人暨執行長 CEO</span>
+              </div>
+            </div>
+          </div>
+          <div class="group relative w-full">
+            <img
+              class="absolute z-10 opacity-1 duration-500 group-hover:hidden"
+              src="../_assets/images/mentors/example.svg"
+            />
+            <div class="z-20 group-hover:opacity-80 group-hover:bg-blue-500">
+              <img
+                src="../_assets/images/entrepreneur/cheng-ji-chi.svg"
+                class="opacity-75"
+              />
+              <div
+                class="opacity-0 group-hover:opacity-100 duration-500 absolute inset-0 z-10 flex flex-col justify-end m-4 text-2xl text-white"
+              >
+                <div class="font-bold text-h4">張津瑋</div>
+                <span class="text-title">GoSky 共同創辦人暨執行長 CEO</span>
+              </div>
+            </div>
+          </div>
+          <div class="group relative w-full">
+            <img
+              class="absolute z-10 opacity-1 duration-500 group-hover:hidden"
+              src="../_assets/images/mentors/example.svg"
+            />
+            <div class="z-20 group-hover:opacity-80 group-hover:bg-blue-500">
+              <img
+                src="../_assets/images/entrepreneur/cheng-ji-chi.svg"
+                class="opacity-75"
+              />
+              <div
+                class="opacity-0 group-hover:opacity-100 duration-500 absolute inset-0 z-10 flex flex-col justify-end m-4 text-2xl text-white"
+              >
+                <div class="font-bold text-h4">張津瑋</div>
+                <span class="text-title">GoSky 共同創辦人暨執行長 CEO</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="bg-primary flex flex-col p-10 xl:w-1/2">
+          <span class="text-h3 font-bold text-white">搖籃創業家</span>
+          <div class="font-display mt-[32px]">
+            <div class="lg:w-1/2">
+              <span class="text-hollow text-transparent text-9xl font-bold"
+                >150+</span
+              >
+            </div>
+          </div>
+          <span class="font-bold text-h5 text-white mt-[32px]"
+            >從AAMA出發到現在，仍以歷屆學長姊身份在社會上貢獻一份心力</span
+          >
+          <a
+            href="#"
+            class="text-white font-bold hover:text-black-600 mt-[36px]"
+            >Read More</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <section class="mt-[240px] py-6 md:px-52">
+      <div class="container">
+        <p class="text-h3 font-bold text-center">FAQ</p>
+        <div class="flex flex-wrap p-6 lg:p-10">
+          <div class="w-full lg:w-1/2 lg:pr-2">
+            <details class="p-6 border border-[#909090] mb-4 bg-white">
+              <summary class="cursor-pointer list-none">
+                <span class="right-arrow"
+                  ><i class="fa-solid fa-fw fa-chevron-right"></i
+                ></span>
+                <span class="down-arrow"
+                  ><i class="fa-solid fa-fw fa-chevron-down"></i
+                ></span>
+                <span class="font-bold text-[#4B4B4B]"
+                  >我有創業的計畫，但還尚未正式成立公司，可以申請參加嗎？</span
+                >
+              </summary>
+              <p class="text-[#6F6F6F] mt-4">
+                AAMA
+                台北搖籃計畫主要資源為導師一對一指導，學員可與導師共同訂定學習目標及互動頻率；計畫期間另提供導師/專家演講、主題式課程、資源媒合、企業參訪、海外學習之旅等多元學習機會與資源，以上不強制要求全部出席，但我們希望您在兩年的計畫中樂於投入時間與精力參與，達到學習型活動
+                8 成以上參與率。
+              </p>
+            </details>
+            <details class="p-6 border border-[#909090] mb-4 bg-white">
+              <summary class="cursor-pointer list-none">
+                <span class="right-arrow"
+                  ><i class="fa-solid fa-fw fa-chevron-right"></i
+                ></span>
+                <span class="down-arrow"
+                  ><i class="fa-solid fa-fw fa-chevron-down"></i
+                ></span>
+                <span class="font-bold text-[#4B4B4B]"
+                  >我有創業的計畫，但還尚未正式成立公司，可以申請參加嗎？</span
+                >
+              </summary>
+              <p class="text-[#6F6F6F] mt-4">
+                AAMA
+                台北搖籃計畫主要資源為導師一對一指導，學員可與導師共同訂定學習目標及互動頻率；計畫期間另提供導師/專家演講、主題式課程、資源媒合、企業參訪、海外學習之旅等多元學習機會與資源，以上不強制要求全部出席，但我們希望您在兩年的計畫中樂於投入時間與精力參與，達到學習型活動
+                8 成以上參與率。
+              </p>
+            </details>
+            <details class="p-6 border border-[#909090] mb-4 bg-white">
+              <summary class="cursor-pointer list-none">
+                <!-- <span class="right-arrow"
+                  ><i class="fa-solid fa-fw fa-chevron-right"></i
+                ></span>
+                <span class="down-arrow"
+                  ><i class="fa-solid fa-fw fa-chevron-down"></i
+                ></span> -->
+                <span class="font-bold text-[#4B4B4B]"
+                  >我有創業的計畫，但還尚未正式成立公司，可以申請參加嗎？</span
+                >
+              </summary>
+              <p class="text-[#6F6F6F] mt-4">
+                AAMA
+                台北搖籃計畫主要資源為導師一對一指導，學員可與導師共同訂定學習目標及互動頻率；計畫期間另提供導師/專家演講、主題式課程、資源媒合、企業參訪、海外學習之旅等多元學習機會與資源，以上不強制要求全部出席，但我們希望您在兩年的計畫中樂於投入時間與精力參與，達到學習型活動
+                8 成以上參與率。
+              </p>
+            </details>
+          </div>
+          <div class="w-full lg:w-1/2 lg:pl-2">
+            <details class="p-6 border border-[#909090] mb-4 bg-white">
+              <summary class="cursor-pointer list-none">
+                <span class="right-arrow"
+                  ><i class="fa-solid fa-fw fa-chevron-right"></i
+                ></span>
+                <span class="down-arrow"
+                  ><i class="fa-solid fa-fw fa-chevron-down"></i
+                ></span>
+                <span class="font-bold text-[#4B4B4B]"
+                  >我有創業的計畫，但還尚未正式成立公司，可以申請參加嗎？</span
+                >
+              </summary>
+              <p class="text-[#6F6F6F] mt-4">
+                AAMA
+                台北搖籃計畫主要資源為導師一對一指導，學員可與導師共同訂定學習目標及互動頻率；計畫期間另提供導師/專家演講、主題式課程、資源媒合、企業參訪、海外學習之旅等多元學習機會與資源，以上不強制要求全部出席，但我們希望您在兩年的計畫中樂於投入時間與精力參與，達到學習型活動
+                8 成以上參與率。
+              </p>
+            </details>
+            <details class="p-6 border border-[#909090] mb-4 bg-white">
+              <summary class="cursor-pointer list-none">
+                <span class="right-arrow"
+                  ><i class="fa-solid fa-fw fa-chevron-right"></i
+                ></span>
+                <span class="down-arrow"
+                  ><i class="fa-solid fa-fw fa-chevron-down"></i
+                ></span>
+                <span class="font-bold text-[#4B4B4B]"
+                  >我有創業的計畫，但還尚未正式成立公司，可以申請參加嗎？</span
+                >
+              </summary>
+              <p class="text-[#6F6F6F] mt-4">
+                AAMA
+                台北搖籃計畫主要資源為導師一對一指導，學員可與導師共同訂定學習目標及互動頻率；計畫期間另提供導師/專家演講、主題式課程、資源媒合、企業參訪、海外學習之旅等多元學習機會與資源，以上不強制要求全部出席，但我們希望您在兩年的計畫中樂於投入時間與精力參與，達到學習型活動
+                8 成以上參與率。
+              </p>
+            </details>
           </div>
         </div>
       </div>
