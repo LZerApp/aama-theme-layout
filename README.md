@@ -28,7 +28,6 @@
 │   │   ├── images/
 │   │   ├── scripts/
 │   │   └── styles/
-│   ├── about             // 關於我們
 │   │   └── index.html
 │   ├── co-create         // 共創
 │   │   └── index.html
