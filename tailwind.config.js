@@ -97,11 +97,13 @@ module.exports = {
         small: ["11px", "140%"],
         tiny: ["10px", "140%"],
         ag: ["75px"],
+        number: ["72px"],
       },
       lineHeight: {
         title: "125%",
         normal: "140%",
         loose: "160%",
+        less: "100%",
       },
       width: {
         logo: "50px",
