@@ -7,6 +7,11 @@
   width: 24px;
   @apply bg-primary;
 }
+.content-line-2 {
+  height: 4px;
+  width: 80px;
+  @apply bg-primary;
+}
 .intro-mentor-pic {
   @apply flex justify-start mt-10;
 }
