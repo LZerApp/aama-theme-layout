@@ -37,6 +37,8 @@ module.exports = {
         recruit: "url(../images/backgrounds/recruit-banner.svg)",
         banner1: "url(../images/sliders/banner-1.svg)",
         walkBanner: "url(../images/backgrounds/walkpeopleBanner.svg)",
+        witnessBanner: "url(../images/backgrounds/witness.svg)",
+        videoBanner: "url(../images/backgrounds/videobanner.svg)",
       },
       colors: {
         transparent: "transparent",

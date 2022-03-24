@@ -9,495 +9,366 @@
     <link rel="stylesheet" href="../_assets/styles/main.css" />
   </head>
   <body>
-    <nav
-      class="border-b-2 border-[#f5f5f5] py-6 bg-white md:border-0 md:bg-transparent"
+    <section
+      class="md:h-screen md:bg-center md:bg-largelogo bg-no-repeat xl:bg-createBannerLarge"
     >
-      <div class="container md:mx-auto md:w-full">
-        <div class="flex justify-between">
-          <!-- logo -->
-          <img
-            src="../_assets/images/logo.svg"
-            alt="logo"
-            class="h-[24px] xl:h-[34px]"
-          />
-
-          <!-- menu -->
-          <div class="hidden xl:flex">
-            <a href="#" class="text-primary-dark font-extrabold">關於我們</a>
-            <a
-              href="../co-study/"
-              class="xl:pl-8 text-primary-dark font-extrabold"
-              >共學</a
-            >
-            <a
-              href="../co-create/"
-              class="xl:pl-8 text-primary-dark font-extrabold"
-              >共創</a
-            >
-            <a
-              href="../community/"
-              class="xl:pl-8 text-primary-dark font-extrabold"
-              >社群</a
-            >
-            <a href="#" class="xl:pl-8 text-primary-dark font-extrabold"
-              >加入我們</a
-            >
-            <a href="#" class="xl:pl-8 text-primary-dark font-extrabold"
-              >登入會員</a
-            >
-          </div>
-
-          <!-- hamburger -->
-          <div class="xl:hidden cursor-pointer">
-            <a href="./hamburger">
-              <img
-                src="../_assets/images/backgrounds/hamburger-menu.svg"
-                alt="hamburger"
-              />
-            </a>
+      <nav
+        class="container border-b-2 border-[#f5f5f5] py-6 bg-white md:border-0 md:bg-transparent"
+      >
+        <div class="container md:mx-auto md:w-full">
+          <div class="flex justify-between">
+            <img
+              src="../_assets/images/logo.svg"
+              alt="logo"
+              class="h-[24px] xl:h-[34px]"
+            />
+            <div class="hidden xl:flex md:flex">
+              <a
+                href="#"
+                class="text-subtitle text-primary-dark font-bold hover:text-primary-normal"
+                >關於我們</a
+              >
+              <a
+                href="./co-study/"
+                class="xl:ml-10 md:ml-8 text-subtitle text-primary-dark font-bold hover:text-primary-normal"
+                >共學</a
+              >
+              <a
+                href="./co-create/"
+                class="xl:ml-10 md:ml-8 text-subtitle text-primary-dark font-bold hover:text-primary-normal"
+                >共創</a
+              >
+              <a
+                href="./community/"
+                class="xl:ml-10 md:ml-8 text-subtitle text-primary-dark font-bold hover:text-primary-normal"
+                >社群</a
+              >
+              <a
+                href="#"
+                class="xl:ml-10 md:ml-8 text-subtitle text-primary-dark font-bold hover:text-primary-normal"
+                >加入我們</a
+              >
+              <a
+                href="#"
+                class="xl:ml-10 md:ml-8 text-subtitle text-primary-dark font-bold hover:text-primary-normal"
+                >登入會員</a
+              >
+            </div>
+            <!-- <div class="md:hidden">
+              <label>
+                <input type="checkbox" />
+                <span class="menu"> <span class="hamburger"></span> </span>
+                <ul>
+                  <li class="py-4">
+                    <a
+                      href="#"
+                      class="text-h2 text-primary-dark font-bold hover:text-primary-normal"
+                      >關於我們</a
+                    >
+                  </li>
+                  <li class="py-4">
+                    <a
+                      href="../co-study/"
+                      class="text-h2 text-primary-dark font-bold hover:text-primary-normal"
+                      >共學</a
+                    >
+                  </li>
+                  <li class="py-4">
+                    <a
+                      href="../co-create/"
+                      class="text-h2 text-primary-dark font-bold hover:text-primary-normal"
+                      >共創</a
+                    >
+                  </li>
+                  <li class="py-4">
+                    <a
+                      href="../community/"
+                      class="text-h2 text-primary-dark font-bold hover:text-primary-normal"
+                      >社群</a
+                    >
+                  </li>
+                  <li class="py-4">
+                    <a
+                      href="#"
+                      class="text-h2 text-primary-dark font-bold hover:text-primary-normal"
+                      >加入我們</a
+                    >
+                  </li>
+                  <li class="py-4">
+                    <a
+                      href="#"
+                      class="text-h2 text-primary-dark font-bold hover:text-primary-normal"
+                      >登入會員</a
+                    >
+                  </li>
+                </ul>
+              </label>
+            </div> -->
           </div>
         </div>
-      </div>
-    </nav>
-
-    <!--NEWS-->
-    <section class="mt-0 mx-auto px-5 lg:px-28">
-      <div class="global-width">
-        <div class="content flex justify-evenly">
-          <div class="side-left hidden md:block">
-            <section class="py-8 mr-4">
-              <div>
-                <div class="mb-8">
-                  <img
-                    width="780"
-                    height="238"
-                    src="../_assets/images/entrepreneur/report/example_2.svg"
-                    alt=""
-                  />
-                </div>
-                <div class="-mt-40 px-6">
-                  <a href="#" class="intro-tag">最新消息</a>
-                  <p
-                    class="text-white text-h4 font-bold text-body1 pt-2 text-justify"
-                  >
-                    AAMA 台北搖籃計畫 10 年里程碑，今年度再納入 25 家新創
-                  </p>
-                  <span class="text-black-500 font-bold mt-10"
-                    >作者姓名&emsp;•&emsp;YYYY/MM/DD</span
-                  >
-                </div>
-              </div>
-            </section>
-          </div>
-          <div class="side-right md:w-1/5 hidden md:block">
-            <p class="font-title font-bold mt-8">搜尋</p>
-            <div class="mt-2 flex items-center py-2 border w-full">
+      </nav>
+      <section>
+        <div class="container mx-auto">
+          <div class="flex flex-wrap md:flex-row-reverse">
+            <div class="w-full md:w-1/3 flex flex-row justify-between">
+              <span class="font-bold text-primary p-8 cursor-pointer"
+                >最新消息</span
+              ><span
+                class="font-bold text-black-600 p-8 cursor-pointer hover:text-primary"
+                >校友訪談</span
+              ><span
+                class="font-bold text-black-600 p-8 cursor-pointer hover:text-primary"
+                >活動訊息</span
+              >
+            </div>
+            <label class="relative text-gray-400 block">
               <input
-                class="w-full mr-3 py-1 px-2 ml-2"
-                type="text"
                 placeholder="搜尋文章"
-                aria-label="search article"
+                size="80"
+                class="border border-black-600 py-2 px-4 bg-white w-full block pl-14 focus:outline-none"
               />
               <svg
-                class="h-8 w-8 text-black-600 mr-4"
+                class="pointer-events-none w-8 h-8 absolute top-1/2 transform -translate-y-1/2 left-3"
                 width="24"
                 height="24"
                 viewBox="0 0 24 24"
-                stroke-width="2"
-                stroke="currentColor"
                 fill="none"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                xmlns="http://www.w3.org/2000/svg"
               >
-                <path stroke="none" d="M0 0h24v24H0z" />
-                <circle cx="10" cy="10" r="7" />
-                <line x1="21" y1="21" x2="15" y2="15" />
+                <circle cx="11" cy="11" r="6" stroke="#6F6F6F" />
+                <path
+                  d="M20 20L17 17"
+                  stroke="#6F6F6F"
+                  stroke-linecap="round"
+                />
               </svg>
+            </label>
+            <div class="w-full md:w-2/3">
+              <div class="w-full">
+                <div class="overflow-hidden shadow-lg mt-10">
+                  <img
+                    class="w-full"
+                    src="../_assets/images/entrepreneur/cheng-ji-chi.svg"
+                    alt="Sunset in the mountains"
+                  />
+                  <div class="px-6 py-4">
+                    <div class="flex flex-row">
+                      <span
+                        class="tag inline-block bg-primary rounded-md px-3 py-1 text-caption text-white mr-2 mb-2"
+                        >最新消息</span
+                      >
+                      <span
+                        class="tag inline-block bg-primary rounded-md px-3 py-1 text-caption text-white mr-2 mb-2"
+                        >人工智慧</span
+                      >
+                      <span
+                        class="tag inline-block bg-primary rounded-md px-3 py-1 text-caption text-white mr-2 mb-2"
+                        >社群</span
+                      >
+                      <span
+                        class="tag inline-block bg-primary rounded-md px-3 py-1 text-caption text-white mr-2 mb-2"
+                        >Inside</span
+                      >
+                    </div>
+                    <p class="text-black-900 font-bold">
+                      Dcard創辦人登《富比士》亞洲傑出青年榜單，今年5位台灣之光入圍...
+                    </p>
+                    <span class="text-black-700 font-bold mt-10 text-body2"
+                      >作者姓名&emsp;•&emsp;YYYY/MM/DD</span
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="w-full">
+                <div class="overflow-hidden shadow-lg mt-10">
+                  <img
+                    class="w-full"
+                    src="../_assets/images/entrepreneur/cheng-ji-chi.svg"
+                    alt="Sunset in the mountains"
+                  />
+                  <div class="px-6 py-4">
+                    <div class="flex flex-row">
+                      <span
+                        class="tag inline-block bg-primary rounded-md px-3 py-1 text-caption text-white mr-2 mb-2"
+                        >最新消息</span
+                      >
+                      <span
+                        class="tag inline-block bg-primary rounded-md px-3 py-1 text-caption text-white mr-2 mb-2"
+                        >人工智慧</span
+                      >
+                      <span
+                        class="tag inline-block bg-primary rounded-md px-3 py-1 text-caption text-white mr-2 mb-2"
+                        >社群</span
+                      >
+                      <span
+                        class="tag inline-block bg-primary rounded-md px-3 py-1 text-caption text-white mr-2 mb-2"
+                        >Inside</span
+                      >
+                    </div>
+                    <p class="text-black-900 font-bold">
+                      Dcard創辦人登《富比士》亞洲傑出青年榜單，今年5位台灣之光入圍...
+                    </p>
+                    <span class="text-black-700 font-bold mt-10 text-body2"
+                      >作者姓名&emsp;•&emsp;YYYY/MM/DD</span
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="w-full">
+                <div class="overflow-hidden shadow-lg mt-10">
+                  <img
+                    class="w-full"
+                    src="../_assets/images/entrepreneur/cheng-ji-chi.svg"
+                    alt="Sunset in the mountains"
+                  />
+                  <div class="px-6 py-4">
+                    <div class="flex flex-row">
+                      <span
+                        class="tag inline-block bg-primary rounded-md px-3 py-1 text-caption text-white mr-2 mb-2"
+                        >最新消息</span
+                      >
+                      <span
+                        class="tag inline-block bg-primary rounded-md px-3 py-1 text-caption text-white mr-2 mb-2"
+                        >人工智慧</span
+                      >
+                      <span
+                        class="tag inline-block bg-primary rounded-md px-3 py-1 text-caption text-white mr-2 mb-2"
+                        >社群</span
+                      >
+                      <span
+                        class="tag inline-block bg-primary rounded-md px-3 py-1 text-caption text-white mr-2 mb-2"
+                        >Inside</span
+                      >
+                    </div>
+                    <p class="text-black-900 font-bold">
+                      Dcard創辦人登《富比士》亞洲傑出青年榜單，今年5位台灣之光入圍...
+                    </p>
+                    <span class="text-black-700 font-bold mt-10 text-body2"
+                      >作者姓名&emsp;•&emsp;YYYY/MM/DD</span
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="w-full">
+                <div class="overflow-hidden shadow-lg mt-10">
+                  <img
+                    class="w-full"
+                    src="../_assets/images/entrepreneur/cheng-ji-chi.svg"
+                    alt="Sunset in the mountains"
+                  />
+                  <div class="px-6 py-4">
+                    <div class="flex flex-row">
+                      <span
+                        class="tag inline-block bg-primary rounded-md px-3 py-1 text-caption text-white mr-2 mb-2"
+                        >最新消息</span
+                      >
+                      <span
+                        class="tag inline-block bg-primary rounded-md px-3 py-1 text-caption text-white mr-2 mb-2"
+                        >人工智慧</span
+                      >
+                      <span
+                        class="tag inline-block bg-primary rounded-md px-3 py-1 text-caption text-white mr-2 mb-2"
+                        >社群</span
+                      >
+                      <span
+                        class="tag inline-block bg-primary rounded-md px-3 py-1 text-caption text-white mr-2 mb-2"
+                        >Inside</span
+                      >
+                    </div>
+                    <p class="text-black-900 font-bold">
+                      Dcard創辦人登《富比士》亞洲傑出青年榜單，今年5位台灣之光入圍...
+                    </p>
+                    <span class="text-black-700 font-bold mt-10 text-body2"
+                      >作者姓名&emsp;•&emsp;YYYY/MM/DD</span
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="w-full">
+                <div class="overflow-hidden shadow-lg mt-10">
+                  <img
+                    class="w-full"
+                    src="../_assets/images/entrepreneur/cheng-ji-chi.svg"
+                    alt="Sunset in the mountains"
+                  />
+                  <div class="px-6 py-4">
+                    <div class="flex flex-row">
+                      <span
+                        class="tag inline-block bg-primary rounded-md px-3 py-1 text-caption text-white mr-2 mb-2"
+                        >最新消息</span
+                      >
+                      <span
+                        class="tag inline-block bg-primary rounded-md px-3 py-1 text-caption text-white mr-2 mb-2"
+                        >人工智慧</span
+                      >
+                      <span
+                        class="tag inline-block bg-primary rounded-md px-3 py-1 text-caption text-white mr-2 mb-2"
+                        >社群</span
+                      >
+                      <span
+                        class="tag inline-block bg-primary rounded-md px-3 py-1 text-caption text-white mr-2 mb-2"
+                        >Inside</span
+                      >
+                    </div>
+                    <p class="text-black-900 font-bold">
+                      Dcard創辦人登《富比士》亞洲傑出青年榜單，今年5位台灣之光入圍...
+                    </p>
+                    <span class="text-black-700 font-bold mt-10 text-body2"
+                      >作者姓名&emsp;•&emsp;YYYY/MM/DD</span
+                    >
+                  </div>
+                </div>
+              </div>
             </div>
-            <p class="font-title font-bold mt-10">分類</p>
-            <ul class="flex flex-col flex-wrap mt-2">
-              <a
-                href="#"
-                class="inline-block py-2 px-4 text-subtitle text-left text-primary active border-l-2 border-primary bg-primary-tint"
-                aria-current="page"
-                >最新消息</a
+            <div class="py-6 md:hidden w-full">
+              <button
+                class="border border-black-600 w-full h-12 text-black-800 font-bold"
               >
-              <a
-                href="#"
-                class="inline-block py-2 px-4 text-subtitle text-left hover:text-primy-600 hover:border-primary-300"
-                >校友訪談</a
-              >
-              <a
-                href="#"
-                class="inline-block py-2 px-4 text-subtitle text-left hover:text-primy-600 hover:border-primary-300"
-                >活動訊息</a
-              >
-            </ul>
-            <div class="tag-area mt-10">
-              <p class="font-title font-bold">標籤</p>
-              <div class="flex flex-wrap mt-4">
+                LOAD MORE
+              </button>
+            </div>
+            <div>
+              <span class="font-bold text-black-900">標籤</span>
+              <div class="mt-2">
                 <span
-                  class="tag inline-block bg-primary-tint rounded-md px-3 py-1 mt-2 text-caption font-bold text-primary mr-2 mb-2"
+                  class="tag inline-block bg-primary-tint rounded-md px-3 py-1 text-caption font-bold text-primary mr-2 mb-2 border border-transparent hover:border-primary"
                   >社群</span
                 >
                 <span
-                  class="tag inline-block bg-primary-tint rounded-md px-3 py-1 mt-2 text-caption font-bold text-primary mr-2 mb-2"
+                  class="tag inline-block bg-primary-tint rounded-md px-3 py-1 text-caption font-bold text-primary mr-2 mb-2 border border-transparent hover:border-primary"
                   >Marketing</span
                 >
                 <span
-                  class="tag inline-block bg-primary-tint rounded-md px-3 py-1 mt-2 text-caption font-bold text-primary mr-2 mb-2"
+                  class="tag inline-block bg-primary-tint rounded-md px-3 py-1 text-caption font-bold text-primary mr-2 mb-2 border border-transparent hover:border-primary"
                   >Inside</span
                 >
                 <span
-                  class="tag inline-block bg-primary-tint rounded-md px-3 py-1 mt-2 text-caption font-bold text-primary mr-2 mb-2"
+                  class="tag inline-block bg-primary-tint rounded-md px-3 py-1 text-caption font-bold text-primary mr-2 mb-2 border border-transparent hover:border-primary"
                   >愛料理</span
                 >
                 <span
-                  class="tag inline-block bg-primary-tint rounded-md px-3 py-1 mt-2 text-caption font-bold text-primary mr-2 mb-2"
-                  >新聞週刊</span
+                  class="tag inline-block bg-primary-tint rounded-md px-3 py-1 text-caption font-bold text-primary mr-2 mb-2 border border-transparent hover:border-primary"
+                  >新聞周刊</span
                 >
                 <span
-                  class="tag inline-block bg-primary-tint rounded-md px-3 py-1 mt-2 text-caption font-bold text-primary mr-2 mb-2"
-                  >A論融資</span
+                  class="tag inline-block bg-primary-tint rounded-md px-3 py-1 text-caption font-bold text-primary mr-2 mb-2 border border-transparent hover:border-primary"
+                  >A輪融資</span
                 >
                 <span
-                  class="tag inline-block bg-primary-tint rounded-md px-3 py-1 mt-2 text-caption font-bold text-primary mr-2 mb-2"
+                  class="tag inline-block bg-primary-tint rounded-md px-3 py-1 text-caption font-bold text-primary mr-2 mb-2 border border-transparent hover:border-primary"
                   >Newsweek</span
                 >
+                <span
+                  class="tag inline-block bg-primary-tint rounded-md px-3 py-1 text-caption font-bold text-primary mr-2 mb-2 border border-transparent hover:border-primary"
+                  >新聞周刊</span
+                >
               </div>
             </div>
           </div>
         </div>
-
-        <div class="tab md:hidden">
-          <ul class="flex flex-wrap -mb-px justify-center">
-            <li class="mr-8">
-              <a
-                href="#"
-                class="tag inline-block py-4 px-4 text-subtitle font-bold text-center text-primary active border-b-2 border-primary"
-                aria-current="page"
-                >最新消息</a
-              >
-            </li>
-            <li class="mr-8">
-              <a
-                href="#"
-                class="tag inline-block py-4 px-4 text-subtitle font-bold text-center text-black-600 border-b-8 border-transparent hover:text-primy-600 hover:border-primary-300"
-                >校友訪談</a
-              >
-            </li>
-
-            <li class="mr-2">
-              <a
-                href="#"
-                class="tag inline-block py-4 px-4 text-subtitle font-bold text-center text-black-600 border-primary"
-                >活動訊息</a
-              >
-            </li>
-          </ul>
-        </div>
-
-        <!--mobile-->
-        <div class="mt-8 flex items-center py-2 border w-full md:hidden">
-          <input
-            class="w-full mr-3 py-1 px-2 ml-2"
-            type="text"
-            placeholder="搜尋文章"
-            aria-label="search article"
-          />
-          <svg
-            class="h-8 w-8 text-black-600 mr-4"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            stroke-width="2"
-            stroke="currentColor"
-            fill="none"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          >
-            <path stroke="none" d="M0 0h24v24H0z" />
-            <circle cx="10" cy="10" r="7" />
-            <line x1="21" y1="21" x2="15" y2="15" />
-          </svg>
-        </div>
-        <div class="cards mt-8 md:hidden">
-          <div class="overflow-hidden shadow-lg mb-10">
-            <img
-              class="w-full"
-              src="../_assets/images/entrepreneur/report/example_3.svg"
-              alt="Sunset in the mountains"
-            />
-            <div class="px-6 pt-4">
-              <span
-                class="tag inline-block bg-primary-tint rounded-md px-3 py-1 text-caption font-bold text-primary mr-2 mb-2"
-                >最新消息</span
-              >
-              <span
-                class="tag inline-block bg-primary-tint rounded-md px-3 py-1 text-caption font-bold text-primary mr-2 mb-2"
-                >人工智慧</span
-              >
-              <span
-                class="tag inline-block bg-primary-tint rounded-md px-3 py-1 text-caption font-bold text-primary mr-2 mb-2"
-                >社群</span
-              >
-              <span
-                class="tag inline-block bg-primary-tint rounded-md px-3 py-1 text-caption font-bold text-primary mr-2 mb-2"
-                >Inside</span
-              >
-            </div>
-            <div class="px-6 py-4">
-              <div class="font-bold text-xl mb-2">
-                Dcard創辦人登《富比士》亞洲傑出青年榜單，今年5位台灣之光入圍...
-              </div>
-              <span class="font-bold mt-10 text-subtitle text-black-700"
-                >作者姓名&emsp;•&emsp;2021/08/03</span
-              >
-            </div>
-          </div>
-          <div class="overflow-hidden shadow-lg mb-10">
-            <img
-              class="w-full"
-              src="../_assets/images/entrepreneur/report/example_3.svg"
-              alt="Sunset in the mountains"
-            />
-            <div class="px-6 pt-4">
-              <span
-                class="tag inline-block bg-primary-tint rounded-md px-3 py-1 text-caption font-bold text-primary mr-2 mb-2"
-                >最新消息</span
-              >
-              <span
-                class="tag inline-block bg-primary-tint rounded-md px-3 py-1 text-caption font-bold text-primary mr-2 mb-2"
-                >人工智慧</span
-              >
-              <span
-                class="tag inline-block bg-primary-tint rounded-md px-3 py-1 text-caption font-bold text-primary mr-2 mb-2"
-                >社群</span
-              >
-              <span
-                class="tag inline-block bg-primary-tint rounded-md px-3 py-1 text-caption font-bold text-primary mr-2 mb-2"
-                >Inside</span
-              >
-            </div>
-            <div class="px-6 py-4">
-              <div class="font-bold text-xl mb-2">
-                Dcard創辦人登《富比士》亞洲傑出青年榜單，今年5位台灣之光入圍...
-              </div>
-              <span class="font-bold mt-10 text-subtitle text-black-700"
-                >作者姓名&emsp;•&emsp;2021/08/03</span
-              >
-            </div>
-          </div>
-          <div class="overflow-hidden shadow-lg mb-10">
-            <img
-              class="w-full"
-              src="../_assets/images/entrepreneur/report/example_3.svg"
-              alt="Sunset in the mountains"
-            />
-            <div class="px-6 pt-4">
-              <span
-                class="tag inline-block bg-primary-tint rounded-md px-3 py-1 text-caption font-bold text-primary mr-2 mb-2"
-                >最新消息</span
-              >
-              <span
-                class="tag inline-block bg-primary-tint rounded-md px-3 py-1 text-caption font-bold text-primary mr-2 mb-2"
-                >人工智慧</span
-              >
-              <span
-                class="tag inline-block bg-primary-tint rounded-md px-3 py-1 text-caption font-bold text-primary mr-2 mb-2"
-                >社群</span
-              >
-              <span
-                class="tag inline-block bg-primary-tint rounded-md px-3 py-1 text-caption font-bold text-primary mr-2 mb-2"
-                >Inside</span
-              >
-            </div>
-            <div class="px-6 py-4">
-              <div class="font-bold text-xl mb-2">
-                Dcard創辦人登《富比士》亞洲傑出青年榜單，今年5位台灣之光入圍...
-              </div>
-              <span class="font-bold mt-10 text-subtitle text-black-700"
-                >作者姓名&emsp;•&emsp;2021/08/03</span
-              >
-            </div>
-          </div>
-          <div class="overflow-hidden shadow-lg mb-10">
-            <img
-              class="w-full"
-              src="../_assets/images/entrepreneur/report/example_3.svg"
-              alt="article"
-            />
-            <div class="px-6 pt-4">
-              <span
-                class="tag inline-block bg-primary-tint rounded-md px-3 py-1 text-caption font-bold text-primary mr-2 mb-2"
-                >最新消息</span
-              >
-              <span
-                class="tag inline-block bg-primary-tint rounded-md px-3 py-1 text-caption font-bold text-primary mr-2 mb-2"
-                >人工智慧</span
-              >
-              <span
-                class="tag inline-block bg-primary-tint rounded-md px-3 py-1 text-caption font-bold text-primary mr-2 mb-2"
-                >社群</span
-              >
-              <span
-                class="tag inline-block bg-primary-tint rounded-md px-3 py-1 text-caption font-bold text-primary mr-2 mb-2"
-                >Inside</span
-              >
-            </div>
-            <div class="px-6 py-4">
-              <div class="font-bold text-xl mb-2">
-                Dcard創辦人登《富比士》亞洲傑出青年榜單，今年5位台灣之光入圍...
-              </div>
-              <span class="font-bold mt-10 text-subtitle text-black-700"
-                >作者姓名&emsp;•&emsp;2021/08/03</span
-              >
-            </div>
-          </div>
-          <div class="overflow-hidden shadow-lg mb-10">
-            <img
-              class="w-full"
-              src="../_assets/images/entrepreneur/report/example_3.svg"
-              alt="article"
-            />
-            <div class="px-6 pt-4">
-              <span
-                class="tag inline-block bg-primary-tint rounded-md px-3 py-1 text-caption font-bold text-primary mr-2 mb-2"
-                >最新消息</span
-              >
-              <span
-                class="tag inline-block bg-primary-tint rounded-md px-3 py-1 text-caption font-bold text-primary mr-2 mb-2"
-                >人工智慧</span
-              >
-              <span
-                class="tag inline-block bg-primary-tint rounded-md px-3 py-1 text-caption font-bold text-primary mr-2 mb-2"
-                >社群</span
-              >
-              <span
-                class="tag inline-block bg-primary-tint rounded-md px-3 py-1 text-caption font-bold text-primary mr-2 mb-2"
-                >Inside</span
-              >
-            </div>
-            <div class="px-6 py-4">
-              <div class="font-bold text-xl mb-2">
-                Dcard創辦人登《富比士》亞洲傑出青年榜單，今年5位台灣之光入圍...
-              </div>
-              <span class="font-bold mt-10 text-subtitle text-black-700"
-                >作者姓名&emsp;•&emsp;2021/08/03</span
-              >
-            </div>
-          </div>
-          <div class="overflow-hidden shadow-lg mb-10">
-            <img
-              class="w-full"
-              src="../_assets/images/entrepreneur/report/example_3.svg"
-              alt="article"
-            />
-            <div class="px-6 pt-4">
-              <span
-                class="tag inline-block bg-primary-tint rounded-md px-3 py-1 text-caption font-bold text-primary mr-2 mb-2"
-                >最新消息</span
-              >
-              <span
-                class="tag inline-block bg-primary-tint rounded-md px-3 py-1 text-caption font-bold text-primary mr-2 mb-2"
-                >人工智慧</span
-              >
-              <span
-                class="tag inline-block bg-primary-tint rounded-md px-3 py-1 text-caption font-bold text-primary mr-2 mb-2"
-                >社群</span
-              >
-              <span
-                class="tag inline-block bg-primary-tint rounded-md px-3 py-1 text-caption font-bold text-primary mr-2 mb-2"
-                >Inside</span
-              >
-            </div>
-            <div class="px-6 py-4">
-              <div class="font-bold text-xl mb-2">
-                Dcard創辦人登《富比士》亞洲傑出青年榜單，今年5位台灣之光入圍...
-              </div>
-              <span class="font-bold mt-10 text-subtitle text-black-700"
-                >作者姓名&emsp;•&emsp;2021/08/03</span
-              >
-            </div>
-          </div>
-          <div class="overflow-hidden shadow-lg mb-10">
-            <img
-              class="w-full"
-              src="../_assets/images/entrepreneur/report/example_3.svg"
-              alt="article"
-            />
-            <div class="px-6 pt-4">
-              <span
-                class="tag inline-block bg-primary-tint rounded-md px-3 py-1 text-caption font-bold text-primary mr-2 mb-2"
-                >最新消息</span
-              >
-              <span
-                class="tag inline-block bg-primary-tint rounded-md px-3 py-1 text-caption font-bold text-primary mr-2 mb-2"
-                >人工智慧</span
-              >
-              <span
-                class="tag inline-block bg-primary-tint rounded-md px-3 py-1 text-caption font-bold text-primary mr-2 mb-2"
-                >社群</span
-              >
-              <span
-                class="tag inline-block bg-primary-tint rounded-md px-3 py-1 text-caption font-bold text-primary mr-2 mb-2"
-                >Inside</span
-              >
-            </div>
-            <div class="px-6 py-4">
-              <div class="font-bold text-xl mb-2">
-                Dcard創辦人登《富比士》亞洲傑出青年榜單，今年5位台灣之光入圍...
-              </div>
-              <span class="font-bold mt-10 text-subtitle text-black-700"
-                >作者姓名&emsp;•&emsp;2021/08/03</span
-              >
-            </div>
-          </div>
-        </div>
-        <div class="w-full sm:hidden">
-          <button
-            class="border border-black-600 w-full h-16 text-black-800 font-bold"
-          >
-            LOAD MORE
-          </button>
-        </div>
-        <div class="tag-area mt-10 md:hidden">
-          <p class="font-title font-bold">標籤</p>
-          <div class="flex flex-wrap mt-4">
-            <span
-              class="tag inline-block bg-primary-tint rounded-md px-3 py-1 mt-2 text-caption font-bold text-primary mr-2 mb-2"
-              >社群</span
-            >
-            <span
-              class="tag inline-block bg-primary-tint rounded-md px-3 py-1 mt-2 text-caption font-bold text-primary mr-2 mb-2"
-              >Marketing</span
-            >
-            <span
-              class="tag inline-block bg-primary-tint rounded-md px-3 py-1 mt-2 text-caption font-bold text-primary mr-2 mb-2"
-              >Inside</span
-            >
-            <span
-              class="tag inline-block bg-primary-tint rounded-md px-3 py-1 mt-2 text-caption font-bold text-primary mr-2 mb-2"
-              >愛料理</span
-            >
-            <span
-              class="tag inline-block bg-primary-tint rounded-md px-3 py-1 mt-2 text-caption font-bold text-primary mr-2 mb-2"
-              >新聞週刊</span
-            >
-            <span
-              class="tag inline-block bg-primary-tint rounded-md px-3 py-1 mt-2 text-caption font-bold text-primary mr-2 mb-2"
-              >A論融資</span
-            >
-            <span
-              class="tag inline-block bg-primary-tint rounded-md px-3 py-1 mt-2 text-caption font-bold text-primary mr-2 mb-2"
-              >Newsweek</span
-            >
-          </div>
-        </div>
-      </div>
+      </section>
     </section>
 
-    <!--FOOTER-->
     <footer
       class="border-t border-[#f5f5f5] xl:bg-largelogo xl:bg-no-repeat xl:bg-custom"
     >
@@ -541,17 +412,17 @@
             <img
               src="../_assets/images/icons/linkedin.svg"
               alt="LinkedIn"
-              class="mx-2 hover:grayscale hover:cursor-pointer"
+              class="mx-2 grayscale hover:grayscale-0 cursor-pointer"
             />
             <img
               src="../_assets/images/icons/facebook.svg"
               alt="Facebook"
-              class="mx-2 hover:grayscale hover:cursor-pointer"
+              class="mx-2 grayscale hover:grayscale-0 cursor-pointer"
             />
             <img
               src="../_assets/images/icons/youtube.svg"
               alt="YouTube"
-              class="mx-2 hover:grayscale hover:cursor-pointer"
+              class="mx-2 grayscale hover:grayscale-0 cursor-pointer"
             />
           </div>
         </div>
@@ -563,15 +434,5 @@
         </div>
       </div>
     </footer>
-    <script>
-      // let tag = document.getElementsByClassName("tag");
-      // for (let i = 0; i < tag.length; i++) {
-      //   document
-      //     .getElementsByClassName("tag")
-      //     [i].addEventListener("click", () => {
-      //       this.classList.add("tag-border");
-      //     });
-      // }
-    </script>
   </body>
 </html>

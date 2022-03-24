@@ -110,21 +110,25 @@
 
       <section>
         <div class="md:container md:flex">
-          <div class="xl:mt-[50px] flex flex-col xl:flex xl:flex-row">
+          <div class="xl:mt-[50px] flex flex-col md:flex-row">
             <img
               src="_assets/images/sliders/banner-1.svg"
               alt="homepage"
-              class="absolute z-0"
+              class="absolute z-0 xl:relative"
             />
             <div
-              class="mt-[70px] xl:flex xl:flex-col flex items-center flex-col relative z-10 xl:z-0"
+              class="mt-[70px] xl:mt-[20px] flex flex-col relative z-10 xl:z-0"
             >
               <span
-                class="text-white text-h4 font-bold relative z-10 p-10 mt-[220px] xl:z-0"
+                class="xl:text-black xl:text-h2 text-white text-h4 font-bold relative z-10 p-10 mt-[220px] xl:z-0"
                 >協助創業家成功，共創更美好社會</span
               >
               <span
-                class="relative z-10 font-bold text-white text-title text-center bg-primary px-36 py-5 hover:bg-sky-700 cursor-pointer mt-[100px]"
+                class="hidden xl:block text-h5 font-bold text-black-500 px-10"
+                >成功不可複製，智慧可以傳承</span
+              >
+              <span
+                class="xl:mt-4 xl:ml-10 relative z-10 font-bold text-white text-title text-center bg-primary px-36 py-5 hover:bg-sky-700 cursor-pointer mt-[100px]"
                 >認識搖籃計畫</span
               >
             </div>
@@ -351,36 +355,271 @@
 
     <section class="mt-[140px]">
       <div class="container">
-        <p class="text-h3 xl:text-h5 font-bold text-center">
+        <p class="text-h5 xl:text-h3 font-bold text-center text-black-900">
           最新
           <span class="border-b-4 border-secondary -ml-2">消息</span>
         </p>
-        <div class="mt-[24px]">
-          <div class="overflow-hidden shadow-lg">
+        <div class="mt-[24px] xl:flex">
+          <div class="mb-10 shadow-lg">
             <img class="w-full" src="_assets/images/backgrounds/news-1.svg" />
             <div class="px-6 py-4">
-              <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
-              <p class="text-gray-700 text-base">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Voluptatibus quia, nulla! Maiores et perferendis eaque,
-                exercitationem praesentium nihil.
-              </p>
-            </div>
-            <div class="px-6 pt-4 pb-2">
-              <span
-                class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
-                >#photography</span
-              >
-              <span
-                class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
-                >#travel</span
-              >
-              <span
-                class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
-                >#winter</span
-              >
+              <div class="flex flex-row">
+                <span
+                  class="tag inline-block bg-primary rounded-md px-3 py-1 mt-2 text-caption font-bold text-white mr-2 mb-2"
+                  >A輪融資</span
+                >
+                <span
+                  class="tag inline-block bg-primary rounded-md px-3 py-1 mt-2 text-caption font-bold text-white mr-2 mb-2"
+                  >人工智慧</span
+                >
+                <span
+                  class="tag inline-block bg-primary rounded-md px-3 py-1 mt-2 text-caption font-bold text-white mr-2 mb-2"
+                  >社群</span
+                >
+                <span
+                  class="tag inline-block bg-primary rounded-md px-3 py-1 mt-2 text-caption font-bold text-white mr-2 mb-2"
+                  >Inside</span
+                >
+              </div>
+
+              <div class="font-bold text-h6 mb-2 text-black-900">
+                AAMA台北搖籃計畫 10 年里程碑，今年度再納入 25 家新創
+              </div>
+              <div>
+                <span>AAMA • 2021/08/03</span>
+                <p class="text-title text-black-800">
+                  在「成功不可複製，智慧可以傳承」的理念下，搖籃計劃每年邀請12位成功創業家與專業經理人擔任導師...
+                </p>
+              </div>
+              <div class="p-2">
+                <span class="text-body2 text-primary-dark font-bold"
+                  >Read More</span
+                >
+              </div>
             </div>
           </div>
+          <div class="mb-10 xl:ml-5 shadow-lg">
+            <img class="w-full" src="_assets/images/backgrounds/news-1.svg" />
+            <div class="px-6 py-4">
+              <div class="flex flex-row">
+                <span
+                  class="tag inline-block bg-primary rounded-md px-3 py-1 mt-2 text-caption font-bold text-white mr-2 mb-2"
+                  >A輪融資</span
+                >
+                <span
+                  class="tag inline-block bg-primary rounded-md px-3 py-1 mt-2 text-caption font-bold text-white mr-2 mb-2"
+                  >人工智慧</span
+                >
+                <span
+                  class="tag inline-block bg-primary rounded-md px-3 py-1 mt-2 text-caption font-bold text-white mr-2 mb-2"
+                  >社群</span
+                >
+                <span
+                  class="tag inline-block bg-primary rounded-md px-3 py-1 mt-2 text-caption font-bold text-white mr-2 mb-2"
+                  >Inside</span
+                >
+              </div>
+
+              <div class="font-bold text-h6 mb-2 text-black-900">
+                AAMA台北搖籃計畫 10 年里程碑，今年度再納入 25 家新創
+              </div>
+              <div>
+                <span>AAMA • 2021/08/03</span>
+                <p class="text-title text-black-800">
+                  在「成功不可複製，智慧可以傳承」的理念下，搖籃計劃每年邀請12位成功創業家與專業經理人擔任導師...
+                </p>
+              </div>
+              <div class="p-2">
+                <span class="text-body2 text-primary-dark font-bold"
+                  >Read More</span
+                >
+              </div>
+            </div>
+          </div>
+          <div class="mb-10 xl:ml-5 shadow-lg">
+            <img class="w-full" src="_assets/images/backgrounds/news-1.svg" />
+            <div class="px-6 py-4">
+              <div class="flex flex-row">
+                <span
+                  class="tag inline-block bg-primary rounded-md px-3 py-1 mt-2 text-caption font-bold text-white mr-2 mb-2"
+                  >A輪融資</span
+                >
+                <span
+                  class="tag inline-block bg-primary rounded-md px-3 py-1 mt-2 text-caption font-bold text-white mr-2 mb-2"
+                  >人工智慧</span
+                >
+                <span
+                  class="tag inline-block bg-primary rounded-md px-3 py-1 mt-2 text-caption font-bold text-white mr-2 mb-2"
+                  >社群</span
+                >
+                <span
+                  class="tag inline-block bg-primary rounded-md px-3 py-1 mt-2 text-caption font-bold text-white mr-2 mb-2"
+                  >Inside</span
+                >
+              </div>
+
+              <div class="font-bold text-h6 mb-2 text-black-900">
+                AAMA台北搖籃計畫 10 年里程碑，今年度再納入 25 家新創
+              </div>
+              <div>
+                <span>AAMA • 2021/08/03</span>
+                <p class="text-title text-black-800">
+                  在「成功不可複製，智慧可以傳承」的理念下，搖籃計劃每年邀請12位成功創業家與專業經理人擔任導師...
+                </p>
+              </div>
+              <div class="p-2">
+                <span class="text-body2 text-primary-dark font-bold"
+                  >Read More</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="mt-[140px] bg-witnessBanner xl:bg-cover xl:h-screen xl:bg-center xl:bg-createBannerLarge bg-no-repeat py-10"
+    >
+      <div class="container">
+        <p class="text-h5 xl:text-h3 font-bold text-center text-white">
+          <span class="border-b-4 border-secondary -ml-2">見證</span>搖籃
+        </p>
+        <div class="xl:flex xl:flex-row">
+          <a
+            href="#"
+            class="bg-white w-[48px] h-[48px] p-2 hidden xl:block mt-72 mx-10"
+          >
+            &#5176;
+          </a>
+          <div class="flex flex-col xl:grid xl:grid-cols-2 xl:gap-4 py-10">
+            <div class="p-10 bg-white xl:mt-10">
+              <div class="flex flex-row">
+                <img
+                  src="_assets/images/entrepreneur/cheng-ji-chi.svg"
+                  alt=""
+                  class="w-[64px] h-[64px] rounded-full border border-solid border-primary"
+                />
+                <div class="flex flex-col mx-4">
+                  <span class="font-bold text-h6 text-black-900">沈亦妤</span>
+                  <span class="text-black-700 font-bold text-title"
+                    >印花樂創辦人 / 第五期</span
+                  >
+                </div>
+                <img
+                  src="_assets/images/icons/quotes.svg"
+                  alt=""
+                  class="ml-10 mb-10"
+                />
+              </div>
+              <div class="mt-8 xl:mt-0 xl:ml-20">
+                <p class="text-body1 text-black-800">
+                  與創業團隊的互相學習，打開跨領域新創團隊的眼界，並且可以適時的向導師尋求專業協助。
+                </p>
+              </div>
+            </div>
+            <div class="p-10 bg-white mt-10">
+              <div class="flex flex-row">
+                <img
+                  src="_assets/images/entrepreneur/cheng-ji-chi.svg"
+                  alt=""
+                  class="w-[64px] h-[64px] rounded-full border border-solid border-primary"
+                />
+                <div class="flex flex-col mx-4">
+                  <span class="font-bold text-h6 text-black-900">沈亦妤</span>
+                  <span class="text-black-700 font-bold text-title"
+                    >印花樂創辦人 / 第五期</span
+                  >
+                </div>
+                <img
+                  src="_assets/images/icons/quotes.svg"
+                  alt=""
+                  class="ml-10 mb-10"
+                />
+              </div>
+              <div class="mt-8 xl:mt-0 xl:ml-20">
+                <p class="text-body1 text-black-800">
+                  與創業團隊的互相學習，打開跨領域新創團隊的眼界，並且可以適時的向導師尋求專業協助。
+                </p>
+              </div>
+            </div>
+            <div class="p-10 bg-white mt-10">
+              <div class="flex flex-row">
+                <img
+                  src="_assets/images/entrepreneur/cheng-ji-chi.svg"
+                  alt=""
+                  class="w-[64px] h-[64px] rounded-full border border-solid border-primary"
+                />
+                <div class="flex flex-col mx-4">
+                  <span class="font-bold text-h6 text-black-900">沈亦妤</span>
+                  <span class="text-black-700 font-bold text-title"
+                    >印花樂創辦人 / 第五期</span
+                  >
+                </div>
+                <img
+                  src="_assets/images/icons/quotes.svg"
+                  alt=""
+                  class="ml-10 mb-10"
+                />
+              </div>
+              <div class="mt-8 xl:mt-0 xl:ml-20">
+                <p class="text-body1 text-black-800">
+                  與創業團隊的互相學習，打開跨領域新創團隊的眼界，並且可以適時的向導師尋求專業協助。
+                </p>
+              </div>
+            </div>
+            <div class="p-10 bg-white mt-10">
+              <div class="flex flex-row">
+                <img
+                  src="_assets/images/entrepreneur/cheng-ji-chi.svg"
+                  alt=""
+                  class="w-[64px] h-[64px] rounded-full border border-solid border-primary"
+                />
+                <div class="flex flex-col mx-4">
+                  <span class="font-bold text-h6 text-black-900">沈亦妤</span>
+                  <span class="text-black-700 font-bold text-title"
+                    >印花樂創辦人 / 第五期</span
+                  >
+                </div>
+                <img
+                  src="_assets/images/icons/quotes.svg"
+                  alt=""
+                  class="ml-10 mb-10"
+                />
+              </div>
+              <div class="mt-8 xl:mt-0 xl:ml-20">
+                <p class="text-body1 text-black-800">
+                  與創業團隊的互相學習，打開跨領域新創團隊的眼界，並且可以適時的向導師尋求專業協助。
+                </p>
+              </div>
+            </div>
+          </div>
+          <a
+            href="#"
+            class="bg-white w-[48px] h-[48px] p-2 hidden xl:block mt-72 mx-10"
+          >
+            &#5171;
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="mt-[20px]">
+      <div class="flex flex-row py-20">
+        <img src="_assets/images/icons/WISTRON.svg" alt="" class="mx-10" />
+        <img src="_assets/images/icons/WISTRON.svg" alt="" class="mx-10" />
+      </div>
+      <div
+        class="bg-videoBanner bg-contain bg-no-repeat bg-createBannerLarge flex"
+      >
+        <div class="flex flex-col py-60 px-20">
+          <span class="font-bold text-white text-h3">AAMA台北搖籃計畫</span>
+          <span class="font-bold text-white text-h3"
+            >Meet創業小聚年會 | 回顧影片</span
+          >
+        </div>
+        <div class="py-60 px-20 flex ml-60">
+          <img src="./_assets/images/icons/videoBtn.svg" alt="" />
         </div>
       </div>
     </section>
