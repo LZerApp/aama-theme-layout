@@ -39,6 +39,7 @@ module.exports = {
         walkBanner: "url(../images/backgrounds/walkpeopleBanner.svg)",
         witnessBanner: "url(../images/backgrounds/witness.svg)",
         videoBanner: "url(../images/backgrounds/videobanner.svg)",
+        example_1: "url(../images/entrepreneur/report/example_3.svg)",
       },
       colors: {
         transparent: "transparent",
