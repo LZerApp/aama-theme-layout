@@ -18,9 +18,10 @@
   },
   "homepage": "https://github.com/LZerApp/aama-theme-layout#readme",
   "devDependencies": {
-    "autoprefixer": "^10.4.2",
-    "minify": "^8.0.3",
-    "postcss": "^8.4.5",
-    "tailwindcss": "^3.0.15"
+    "autoprefixer": "^10.4.4",
+    "minify": "^8.0.4",
+    "postcss": "^8.4.12",
+    "tailwind-scrollbar-hide": "^1.1.7",
+    "tailwindcss": "^3.0.23"
   }
 }

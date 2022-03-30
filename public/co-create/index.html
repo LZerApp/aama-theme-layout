@@ -4,65 +4,53 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>創業者共創平台</title>
+    <title>共創 | 創業者共創平台</title>
     <link rel="icon" href="../_assets/images/favicon.svg" />
     <link rel="stylesheet" href="../_assets/styles/main.css" />
   </head>
   <body>
-    <section
-      class="bg-createBanner xl:bg-center xl:bg-cover bg-cocreate bg-no-repeat xl:bg-createBannerLarge"
-    >
-      <nav class="container bg-black p-8 flex justify-between">
-        <div>
-          <img
-            src="../_assets/images/logo-white.svg"
-            alt="logo"
-            class="h-[24px] xl:h-[34px]"
-          />
-        </div>
-        <div class="hidden xl:flex">
-          <a
-            href="../index.html"
-            class="text-subtitle text-white font-bold hover:text-primary-normal"
-            >關於我們</a
-          >
-          <a
-            href="../co-study/"
-            class="xl:pl-10 text-subtitle text-white font-bold hover:text-primary-normal"
-            >共學</a
-          >
-          <a
-            href="../co-create/"
-            class="xl:pl-10 text-subtitle text-white font-bold hover:text-primary-normal"
-            >共創</a
-          >
-          <a
-            href="../community/"
-            class="xl:pl-10 text-subtitle text-white font-bold hover:text-primary-normal"
-            >社群</a
-          >
-          <a
-            href="#"
-            class="xl:pl-10 text-subtitle text-white font-bold hover:text-primary-normal"
-            >加入我們</a
-          >
-          <a
-            href="#"
-            class="xl:pl-10 text-subtitle text-white font-bold hover:text-primary-normal"
-            >登入會員</a
-          >
-        </div>
-        <div class="md:hidden">
-          <label>
-            <input type="checkbox-create" />
-            <span class="menu-create">
-              <span class="hamburger-create"></span>
-            </span>
-          </label>
-        </div>
-      </nav>
+    <!-- section: hero -->
+    <section id="section-co-create-hero">
+      <!-- header -->
+      <header
+        class="border-b-2 border-[#f5f5f5] py-6 bg-white xl:border-0 xl:bg-transparent"
+      >
+        <div class="container xl:mx-auto xl:w-full">
+          <div class="flex justify-between">
+            <!-- logo -->
+            <img
+              src="../_assets/images/logo-white.svg"
+              alt="logo"
+              class="h-[24px] xl:h-[34px] hidden xl:block"
+            />
+            <img
+              src="../_assets/images/logo.svg"
+              alt="logo"
+              class="h-[24px] xl:h-[34px] xl:hidden"
+            />
 
-      <section>
+            <!-- navigation -->
+            <nav class="hidden xl:flex">
+              <a href="#" class="nav-item-white">關於我們</a>
+              <a href="../co-study/" class="nav-item-white xl:pl-10">共學</a>
+              <a href="../co-create/" class="nav-item-white xl:pl-10">共創</a>
+              <a href="../community/" class="nav-item-white xl:pl-10">社群</a>
+              <a href="#" class="nav-item-white xl:pl-10">加入我們</a>
+              <a href="#" class="nav-item-white xl:pl-10">登入會員</a>
+            </nav>
+
+            <!-- hamburger -->
+            <button class="xl:hidden">
+              <img
+                src="../_assets/images/backgrounds/hamburger-menu.svg"
+                alt="hamburger"
+              />
+            </button>
+          </div>
+        </div>
+      </header>
+
+      <div>
         <div class="container">
           <div class="mt-10 xl:flex">
             <div class="xl:w-1/2">
@@ -71,7 +59,7 @@
                 建構一個新創企業與政府、企業及創業者間共創的平台。透過新創企業與政府深度的對話，形成改善台灣創業生態系統的政策。推動新創企業與中大型企業的策略合作，探索共創價值的模式。
               </p>
               <div class="hidden xl:block">
-                <div class="flex lg:mt-16">
+                <div class="flex xl:mt-16">
                   <nav class="tabs flex flex-row">
                     <button
                       data-target="panel-1"
@@ -95,7 +83,7 @@
               <div id="panels" class="mt-[40px] flex flex-row">
                 <div class="panel-1 tab-content active">
                   <div class="display xl:hidden flex flex-row">
-                    <div class="items">
+                    <div class="items scrollbar-hide">
                       <div class="item">
                         <img
                           src="../_assets/images/icons/ADVANTECH.svg"
@@ -179,20 +167,22 @@
               <div class="bg-primary mt-[44px] p-8">
                 <span class="font-bold text-white">WISTRON</span>
                 <p class="mt-4 text-white text-justify pb-10">
-                  Google公司（英語：Google
+                  Google 公司（英語：Google
                   Inc.，NASDAQ：GOOG、FWB：GGQ1，官方中文譯名為谷歌），是一家總部位於美國的跨國科技企業，致力於網際網路搜索、雲端運算、廣告技術等領域，開發並提供大量基於網際網路的產品與服務，其主要利潤來自於AdWords等廣告服務。1998年9月4日，Google以私營公司的形式創立，由當時在史丹福大學攻讀理學博士的拉里·佩奇和謝爾蓋·布林共同創建。2004年8月19日，Google公司的股票在納斯達克上市。Google公司的總部稱為「Googleplex」
                 </p>
               </div>
             </div>
           </div>
         </div>
-      </section>
+      </div>
     </section>
-    <section class="mb-24">
+
+    <!-- section: partner-info -->
+    <section id="section-partner-info">
       <div class="container">
         <div class="my-10">
           <p class="xl:text-h3 text-h5 font-bold text-center p-10">
-            共多<span class="border-b-4 border-secondary">共創</span
+            更多<span class="border-b-4 border-secondary">共創</span
             >策略夥伴訊息
           </p>
         </div>
@@ -262,92 +252,99 @@
         </section>
       </div>
     </section>
-    <footer
-      class="border-t border-[#f5f5f5] xl:bg-largelogo xl:bg-no-repeat xl:bg-custom"
-    >
-      <div class="container text-center">
-        <div
-          class="items-center mt-2 md:mt-6 xl:flex xl:flex-row xl:justify-between"
-        >
-          <div class="flex xl:w-1/4 justify-center xl:justify-start p-2">
-            <img
-              class="max-h-[35px]"
-              src="../_assets/images/logo.svg"
-              alt="AAMA logo"
-            />
+
+    <!-- section: footer -->
+    <section id="section-footer">
+      <footer
+        class="border-t border-[#f5f5f5] xl:bg-largelogo xl:bg-no-repeat xl:bg-custom"
+      >
+        <div class="container text-center">
+          <div
+            class="items-center mt-2 xl:mt-6 xl:flex xl:flex-row xl:justify-between"
+          >
+            <div class="flex xl:w-1/4 justify-center xl:justify-start p-2">
+              <a href="/">
+                <img
+                  class="max-h-[35px]"
+                  src="../_assets/images/logo.svg"
+                  alt="AAMA logo"
+                />
+              </a>
+            </div>
+            <div class="flex mx-auto justify-center font-extrabold p-4">
+              <a class="px-2 xl:px-4 text-body2 hover:text-black-600" href="#"
+                >關於我們</a
+              >
+              <a
+                class="px-2 xl:px-4 border-l text-body2 border-black-800 hover:text-black-600"
+                href="../co-study/"
+                >共學</a
+              >
+              <a
+                class="px-2 xl:px-4 border-l text-body2 border-black-800 hover:text-black-600"
+                href="../co-create/"
+                >共創</a
+              >
+              <a
+                class="px-2 xl:px-4 border-l text-body2 border-black-800 hover:text-black-600"
+                href="../community/"
+                >社群</a
+              >
+              <a
+                class="px-2 xl:px-4 border-l text-body2 border-black-800 hover:text-black-600"
+                href="#"
+                >加入我們</a
+              >
+            </div>
+            <div class="flex xl:w-1/4 justify-center xl:justify-end my-2">
+              <img
+                src="../_assets/images/icons/linkedin.svg"
+                alt="LinkedIn"
+                class="mx-2 grayscale hover:grayscale-0 cursor-pointer"
+              />
+              <img
+                src="../_assets/images/icons/facebook.svg"
+                alt="Facebook"
+                class="mx-2 grayscale hover:grayscale-0 cursor-pointer"
+              />
+              <img
+                src="../_assets/images/icons/youtube.svg"
+                alt="YouTube"
+                class="mx-2 grayscale hover:grayscale-0 cursor-pointer"
+              />
+            </div>
           </div>
-          <div class="flex mx-auto justify-center font-extrabold p-4">
-            <a class="px-2 xl:px-4 text-body2 hover:text-black-600" href="#"
-              >關於我們</a
-            >
-            <a
-              class="px-2 xl:px-4 border-l text-body2 border-black-800 hover:text-black-600"
-              href="../co-study/"
-              >共學</a
-            >
-            <a
-              class="px-2 xl:px-4 border-l text-body2 border-black-800 hover:text-black-600"
-              href="../co-create/"
-              >共創</a
-            >
-            <a
-              class="px-2 xl:px-4 border-l text-body2 border-black-800 hover:text-black-600"
-              href="../community/"
-              >社群</a
-            >
-            <a
-              class="px-2 xl:px-4 border-l text-body2 border-black-800 hover:text-black-600"
-              href="#"
-              >加入我們</a
-            >
-          </div>
-          <div class="flex xl:w-1/4 justify-center xl:justify-end my-2">
-            <img
-              src="../_assets/images/icons/linkedin.svg"
-              alt="LinkedIn"
-              class="mx-2 grayscale hover:grayscale-0 cursor-pointer"
-            />
-            <img
-              src="../_assets/images/icons/facebook.svg"
-              alt="Facebook"
-              class="mx-2 grayscale hover:grayscale-0 cursor-pointer"
-            />
-            <img
-              src="../_assets/images/icons/youtube.svg"
-              alt="YouTube"
-              class="mx-2 grayscale hover:grayscale-0 cursor-pointer"
-            />
+          <div class="py-[24px] xl:py-[16px] xl:mt-10">
+            <p class="font-normal text-small text-black-700">
+              Copyright © 2020 Taipei Co-Creation Foundation for Entrepreneur.
+              All Rights Reserved.
+            </p>
           </div>
         </div>
-        <div class="my-4 xl:mt-10">
-          <p class="font-normal text-small text-black-700">
-            Copyright © 2020 Taipei Co-Creation Foundation for Entrepreneur. All
-            Rights Reserved.
-          </p>
-        </div>
-      </div>
-    </footer>
+      </footer>
+    </section>
+
     <script>
-      const tabs = document.querySelectorAll(".tabs");
-      const tab = document.querySelectorAll(".tab");
-      const panel = document.querySelectorAll(".tab-content");
+      const tabs = document.querySelectorAll('.tabs');
+      const tab = document.querySelectorAll('.tab');
+      const panel = document.querySelectorAll('.tab-content');
 
       function onTabClick(event) {
         for (let i = 0; i < tab.length; i++) {
-          tab[i].classList.remove("active", "btn-border");
+          tab[i].classList.remove('active', 'btn-border');
         }
         for (let i = 0; i < panel.length; i++) {
-          panel[i].classList.remove("active", "btn-border");
+          panel[i].classList.remove('active', 'btn-border');
         }
-        event.target.classList.add("active", "btn-border");
-        let classString = event.target.getAttribute("data-target");
+        event.target.classList.add('active', 'btn-border');
+        let classString = event.target.getAttribute('data-target');
         document
-          .getElementById("panels")
+          .getElementById('panels')
           .getElementsByClassName(classString)[0]
-          .classList.add("active");
+          .classList.add('active');
       }
       for (let i = 0; i < tab.length; i++) {
-        tab[i].addEventListener("click", onTabClick, false);
+        tab[i].addEventListener('click', onTabClick, false);
       }
     </script>
   </body>
