@@ -127,11 +127,11 @@
 
 .text-hollow {
   -webkit-text-stroke: 4px rgb(255, 255, 255);
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
 }
 .text-setting {
   -webkit-text-stroke: 4px rgb(0, 0, 0);
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
 }
 .about-btn {
   margin: 150px;
@@ -172,7 +172,7 @@ label .hamburger:after,
 label .hamburger:before {
   -webkit-transition: 0.5s ease-in-out;
   transition: 0.5s ease-in-out;
-  content: '';
+  content: "";
   position: absolute;
   display: block;
   width: 100%;
@@ -261,7 +261,7 @@ label .hamburger-create:after,
 label .hamburger-create:before {
   -webkit-transition: 0.5s ease-in-out;
   transition: 0.5s ease-in-out;
-  content: '';
+  content: "";
   position: absolute;
   display: block;
   width: 100%;
